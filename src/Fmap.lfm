@@ -1,0 +1,215 @@
+object MapForm: TMapForm
+  Left = 319
+  Height = 317
+  Top = 225
+  Width = 385
+  HelpContext = 112
+  HorzScrollBar.Page = 384
+  VertScrollBar.Page = 316
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsToolWindow
+  Caption = 'Network Map'
+  ClientHeight = 317
+  ClientWidth = 385
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  KeyPreview = True
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDblClick = FormDblClick
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object NodeLegendPanel: TPanel
+    Left = 4
+    Height = 180
+    Top = 50
+    Width = 110
+    BevelOuter = bvNone
+    ClientHeight = 180
+    ClientWidth = 110
+    TabOrder = 0
+    Visible = False
+    object NodeLegendBox: TPaintBox
+      Height = 180
+      Width = 110
+      Align = alClient
+      OnDblClick = NodeLegendBoxDblClick
+      OnMouseDown = DragLegend
+      OnPaint = NodeLegendBoxPaint
+    end
+  end
+  object LinkLegendPanel: TPanel
+    Left = 130
+    Height = 180
+    Top = 50
+    Width = 110
+    BevelOuter = bvNone
+    ClientHeight = 180
+    ClientWidth = 110
+    TabOrder = 1
+    Visible = False
+    object LinkLegendBox: TPaintBox
+      Height = 180
+      Width = 110
+      Align = alClient
+      OnDblClick = LinkLegendBoxDblClick
+      OnMouseDown = DragLegend
+      OnPaint = LinkLegendBoxPaint
+    end
+  end
+  object HintPanel: TPanel
+    Left = 256
+    Height = 25
+    Top = 48
+    Width = 57
+    Alignment = taLeftJustify
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 25
+    ClientWidth = 57
+    Color = clInfoBk
+    FullRepaint = False
+    ParentColor = False
+    TabOrder = 2
+    object HintLabel: TLabel
+      Left = 2
+      Height = 21
+      Top = 2
+      Width = 53
+      Align = alClient
+      Alignment = taCenter
+      Caption = 'HintLabel'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+    end
+  end
+  object TimeLegendPanel: TPanel
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 129
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    Caption = 'TimeLegendPanel'
+    Color = clBlack
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clLime
+    Font.Height = -12
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentColor = False
+    TabOrder = 3
+    Visible = False
+    OnDblClick = TimeLegendPanelDblClick
+    OnMouseDown = TimeLegendPanelMouseDown
+  end
+  object PopupMenu1: TPopupMenu
+    AutoPopup = False
+    OnPopup = PopupMenu1Popup
+    left = 306
+    top = 187
+    object PopupCopy: TMenuItem
+      Caption = 'Copy'
+      OnClick = PopupCopyClick
+    end
+    object PopupPaste: TMenuItem
+      Caption = 'Paste'
+      OnClick = PopupPasteClick
+    end
+    object PopupDelete: TMenuItem
+      Caption = 'Delete'
+      OnClick = PopupDeleteClick
+    end
+    object PopupReverse: TMenuItem
+      Caption = 'Reverse'
+      OnClick = PopupReverseClick
+    end
+    object N4: TMenuItem
+      Caption = '-'
+    end
+    object PopupVertices: TMenuItem
+      Caption = 'Vertices'
+      OnClick = PopupVerticesClick
+    end
+    object PopupProperties: TMenuItem
+      Caption = 'Properties'
+      OnClick = PopupPropertiesClick
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = Timer1Timer
+    left = 340
+    top = 187
+  end
+  object PopupMenu2: TPopupMenu
+    OnPopup = PopupMenu2Popup
+    left = 304
+    top = 224
+    object PopupNodeLegend: TMenuItem
+      Caption = 'Node Legend'
+      OnClick = PopupNodeLegendClick
+    end
+    object PopupLinkLegend: TMenuItem
+      Caption = 'Link Legend'
+      OnClick = PopupLinkLegendClick
+    end
+    object PopupTimeLegend: TMenuItem
+      Caption = 'Time Legend'
+      OnClick = PopupTimeLegendClick
+    end
+    object PopupBackdrop: TMenuItem
+      Caption = 'Backdrop'
+      Enabled = False
+      OnClick = PopupBackdropClick
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object PopupOptions: TMenuItem
+      Caption = 'Options'
+      OnClick = PopupOptionsClick
+    end
+  end
+  object PopupMenu3: TPopupMenu
+    OnPopup = PopupMenu3Popup
+    left = 304
+    top = 264
+    object PopupAddVertex: TMenuItem
+      Caption = 'Add Vertex'
+      OnClick = PopupAddVertexClick
+    end
+    object PopupDeleteVertex: TMenuItem
+      Caption = 'Delete Vertex'
+      OnClick = PopupDeleteVertexClick
+    end
+    object N2: TMenuItem
+      Caption = '-'
+    end
+    object PopupQuitEditing: TMenuItem
+      Caption = 'Quit Editing'
+      OnClick = PopupQuitEditingClick
+    end
+  end
+  object Timer2: TTimer
+    Interval = 500
+    OnTimer = Timer2Timer
+    left = 340
+    top = 224
+  end
+end

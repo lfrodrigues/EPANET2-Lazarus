@@ -1,0 +1,212 @@
+object LegendForm: TLegendForm
+  Left = 168
+  Height = 209
+  Top = 118
+  Width = 332
+  HorzScrollBar.Page = 331
+  VertScrollBar.Page = 208
+  ActiveControl = Edit1
+  BorderStyle = bsDialog
+  Caption = 'Legend Editor'
+  ClientHeight = 209
+  ClientWidth = 332
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  object Hiliter: TShape
+    Left = 92
+    Height = 13
+    Top = 145
+    Width = 15
+    Brush.Style = bsClear
+    Pen.Style = psDot
+    Shape = stRoundRect
+    Visible = False
+  end
+  object UnitsLabel: TLabel
+    Left = 22
+    Height = 14
+    Top = 141
+    Width = 50
+    Caption = 'UnitsLabel'
+    ParentColor = False
+  end
+  object Bevel1: TBevel
+    Left = 232
+    Height = 185
+    Top = 8
+    Width = 2
+    Shape = bsLeftLine
+  end
+  object NameLabel: TLabel
+    Left = 22
+    Height = 14
+    Top = 7
+    Width = 53
+    Caption = 'NameLabel'
+    ParentColor = False
+  end
+  object Box0: TShape
+    Left = 4
+    Height = 29
+    Top = 6
+    Width = 11
+    OnMouseDown = BoxMouseDown
+  end
+  object Box1: TShape
+    Tag = 1
+    Left = 4
+    Height = 30
+    Top = 34
+    Width = 11
+    OnMouseDown = BoxMouseDown
+  end
+  object Box2: TShape
+    Tag = 2
+    Left = 4
+    Height = 30
+    Top = 63
+    Width = 11
+    OnMouseDown = BoxMouseDown
+  end
+  object Box3: TShape
+    Tag = 3
+    Left = 4
+    Height = 31
+    Top = 92
+    Width = 11
+    OnMouseDown = BoxMouseDown
+  end
+  object Box4: TShape
+    Tag = 4
+    Left = 4
+    Height = 29
+    Top = 122
+    Width = 11
+    OnMouseDown = BoxMouseDown
+  end
+  object BtnReverse: TButton
+    Left = 112
+    Height = 23
+    Top = 115
+    Width = 105
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Reverse Colors'
+    OnClick = BtnReverseClick
+    TabOrder = 0
+  end
+  object BtnColorRamp: TButton
+    Left = 112
+    Height = 23
+    Top = 85
+    Width = 105
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Color Ramp ...'
+    OnClick = BtnColorRampClick
+    TabOrder = 1
+  end
+  object BtnQuantiles: TButton
+    Left = 112
+    Height = 25
+    Top = 54
+    Width = 105
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Equal &Quantiles'
+    OnClick = BtnQuantilesClick
+    TabOrder = 2
+  end
+  object BtnIntervals: TButton
+    Left = 112
+    Height = 23
+    Top = 25
+    Width = 105
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Equal Intervals'
+    OnClick = BtnIntervalsClick
+    TabOrder = 3
+  end
+  object Panel1: TPanel
+    Left = 7
+    Height = 24
+    Top = 163
+    Width = 210
+    BevelOuter = bvLowered
+    Caption = 'Click on color you wish to change'
+    TabOrder = 4
+  end
+  object CheckFramed: TCheckBox
+    Left = 251
+    Height = 19
+    Top = 168
+    Width = 61
+    Caption = 'Framed'
+    OnClick = CheckFramedClick
+    TabOrder = 5
+  end
+  object BtnHelp: TButton
+    Left = 251
+    Height = 25
+    Top = 89
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Help'
+    OnClick = BtnHelpClick
+    TabOrder = 6
+  end
+  object BtnCancel: TButton
+    Left = 251
+    Height = 25
+    Top = 49
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    OnClick = BtnCancelClick
+    TabOrder = 7
+  end
+  object BtnOK: TButton
+    Left = 250
+    Height = 25
+    Top = 9
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = BtnOKClick
+    TabOrder = 8
+  end
+  object Edit1: TEdit
+    Left = 22
+    Height = 21
+    Top = 25
+    Width = 71
+    TabOrder = 9
+  end
+  object Edit2: TEdit
+    Left = 22
+    Height = 21
+    Top = 54
+    Width = 71
+    TabOrder = 10
+  end
+  object Edit3: TEdit
+    Left = 22
+    Height = 21
+    Top = 85
+    Width = 71
+    TabOrder = 11
+  end
+  object Edit4: TEdit
+    Left = 22
+    Height = 21
+    Top = 115
+    Width = 71
+    TabOrder = 12
+  end
+  object ColorDialog1: TColorDialog
+    left = 220
+    top = 164
+  end
+end

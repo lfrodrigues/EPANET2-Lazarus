@@ -1,0 +1,76 @@
+object DefaultsForm: TDefaultsForm
+  Left = 424
+  Height = 329
+  Top = 73
+  Width = 273
+  HelpContext = 163
+  HorzScrollBar.Page = 272
+  VertScrollBar.Page = 328
+  ActiveControl = CheckDefault
+  BorderStyle = bsDialog
+  Caption = 'Defaults'
+  ClientHeight = 329
+  ClientWidth = 273
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poScreenCenter
+  object BtnOK: TButton
+    Left = 10
+    Height = 25
+    Top = 297
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    OnClick = BtnOKClick
+    TabOrder = 1
+  end
+  object BtnCancel: TButton
+    Left = 101
+    Height = 25
+    Top = 297
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = BtnCancelClick
+    TabOrder = 2
+  end
+  object BtnHelp: TButton
+    Left = 191
+    Height = 25
+    Top = 297
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 3
+  end
+  object CheckDefault: TCheckBox
+    Left = 10
+    Height = 13
+    Top = 269
+    Width = 190
+    Caption = 'Save as defaults for all new projects'
+    TabOrder = 0
+  end
+  object TabControl1: TTabControl
+    Left = 10
+    Height = 249
+    Top = 8
+    Width = 257
+    OnChange = TabControl1Change
+    TabIndex = 0
+    TabOrder = 4
+    Tabs.Strings = (
+      'ID Labels'
+      'Properties'
+      'Hydraulics'
+    )
+    TabStop = False
+  end
+end

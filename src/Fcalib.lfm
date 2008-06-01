@@ -1,0 +1,158 @@
+object CalibReportForm: TCalibReportForm
+  Left = 132
+  Height = 510
+  Top = 129
+  Width = 760
+  HelpContext = 307
+  HorzScrollBar.Page = 759
+  VertScrollBar.Page = 509
+  ActiveControl = Memo1
+  Caption = 'Calibration Report'
+  ClientHeight = 510
+  ClientWidth = 760
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Icon.Data = {
+    9C0100002F2A2058504D202A2F0A7374617469632063686172202A6772617068
+    69635B5D203D207B0A22313620313620332031222C0A222E2063204E6F6E6522
+    2C0A222C20632023303030303030222C0A222D20632023464646464646222C0A
+    222E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E222C0A222E2E2E2E2E2E2E2E2E2E2E
+    2E2E2E2E2E222C0A222E2E2C2C2C2C2C2C2C2C2C2C2C2C2C2E222C0A222E2E2C
+    2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2D2C2C2C2C2C2C2C2C2C2D2C
+    2E222C0A222E2E2C2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2D2C2C2C
+    2C2C2C2C2D2D2D2C2E222C0A222E2E2C2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A
+    222E2E2C2D2C2C2C2C2C2C2C2C2C2D2C2E222C0A222E2E2C2D2D2D2D2D2D2D2D
+    2D2D2D2C2E222C0A222E2E2C2D2C2C2C2C2C2C2C2D2D2D2C2E222C0A222E2E2C
+    2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2D2C2C2C2C2C2C2C2C2C2D2C
+    2E222C0A222E2E2C2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2C2C2C2C
+    2C2C2C2C2C2C2C2C2E222C0A222E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E227D0A
+  }
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object PageControl1: TPageControl
+    Height = 510
+    Width = 760
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Statistics'
+      ClientHeight = 484
+      ClientWidth = 752
+      object Memo1: TMemo
+        Height = 484
+        Width = 752
+        Align = alClient
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -12
+        Font.Name = 'Courier New'
+        ReadOnly = True
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Correlation Plot'
+      ClientHeight = 484
+      ClientWidth = 752
+      object TAChart1: TChart
+        Height = 307
+        Width = 487
+        Legend.Visible = True
+        Legend.Alignment = laRight
+        Legend.Font.Height = -11
+        Legend.Font.Name = 'MS Sans Serif'
+        Title.Visible = True
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Font.Height = -11
+        Title.Font.Name = 'MS Sans Serif'
+        Title.Font.Style = [fsBold]
+        Title.Alignment = taCenter
+        Title.Text.Strings = (
+          'TAChart Title'
+        )
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clRed
+        Foot.Font.Height = -11
+        Foot.Font.Name = 'MS Sans Serif'
+        Foot.Alignment = taRightJustify
+        LeftAxis.Visible = True
+        LeftAxis.Title.Caption = 'Computed'
+        LeftAxis.Title.Angle = 90
+        LeftAxis.Title.Font.Height = -11
+        LeftAxis.Title.Font.Name = 'MS Sans Serif'
+        LeftAxis.Title.Font.Style = [fsBold]
+        LeftAxis.Grid.Color = clGray
+        LeftAxis.Grid.Style = psDot
+        LeftAxis.Grid.Visible = True
+        BottomAxis.Visible = True
+        BottomAxis.Title.Caption = 'Observed'
+        BottomAxis.Title.Font.Height = -11
+        BottomAxis.Title.Font.Name = 'MS Sans Serif'
+        BottomAxis.Title.Font.Style = [fsBold]
+        BottomAxis.Grid.Color = clGray
+        BottomAxis.Grid.Style = psDot
+        BottomAxis.Grid.Visible = True
+        Frame.Visible = True
+        BackColor = clWhite
+        Align = alClient
+        Color = clBtnFace
+        ParentColor = False
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Mean Comparisons'
+      ClientHeight = 484
+      ClientWidth = 752
+      object TAChart2: TChart
+        Height = 307
+        Width = 487
+        Legend.Alignment = laRight
+        Legend.Font.Height = -11
+        Legend.Font.Name = 'MS Sans Serif'
+        Title.Visible = True
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Font.Height = -11
+        Title.Font.Name = 'MS Sans Serif'
+        Title.Font.Style = [fsBold]
+        Title.Alignment = taCenter
+        Title.Text.Strings = (
+          'TAChart Title'
+        )
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clRed
+        Foot.Font.Height = -11
+        Foot.Font.Name = 'MS Sans Serif'
+        Foot.Alignment = taRightJustify
+        LeftAxis.Visible = True
+        LeftAxis.Title.Angle = 90
+        LeftAxis.Title.Font.Height = -11
+        LeftAxis.Title.Font.Name = 'MS Sans Serif'
+        LeftAxis.Grid.Color = clGray
+        LeftAxis.Grid.Style = psDot
+        LeftAxis.Grid.Visible = True
+        BottomAxis.Visible = True
+        BottomAxis.Title.Caption = 'Location'
+        BottomAxis.Title.Font.Height = -11
+        BottomAxis.Title.Font.Name = 'MS Sans Serif'
+        BottomAxis.Title.Font.Style = [fsBold]
+        BottomAxis.Grid.Color = clGray
+        BottomAxis.Grid.Style = psDot
+        BottomAxis.Grid.Visible = True
+        Frame.Visible = True
+        BackColor = clWhite
+        Align = alClient
+        Color = clBtnFace
+        ParentColor = False
+      end
+    end
+  end
+end

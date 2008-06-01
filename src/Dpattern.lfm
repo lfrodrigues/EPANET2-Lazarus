@@ -1,0 +1,174 @@
+object PatternForm: TPatternForm
+  Left = 275
+  Height = 336
+  Top = 162
+  Width = 488
+  HelpContext = 234
+  HorzScrollBar.Page = 487
+  VertScrollBar.Page = 335
+  ActiveControl = PatternID
+  BorderStyle = bsDialog
+  Caption = 'Pattern Editor'
+  ClientHeight = 336
+  ClientWidth = 488
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object Bevel1: TBevel
+    Height = 8
+    Top = 292
+    Width = 475
+    Shape = bsTopLine
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 14
+    Top = 7
+    Width = 51
+    Caption = 'Pattern ID'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 123
+    Height = 14
+    Top = 7
+    Width = 54
+    Caption = 'Description'
+    ParentColor = False
+  end
+  object TAChart1: TChart
+    Left = 8
+    Height = 153
+    Top = 136
+    Width = 457
+    AutoUpdateXMin = True
+    AutoUpdateXMax = True
+    AutoUpdateYMin = True
+    AutoUpdateYMax = True
+    Legend.Alignment = laRight
+    Legend.Font.Height = -11
+    Legend.Font.Name = 'MS Sans Serif'
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Font.Height = -11
+    Title.Font.Name = 'MS Sans Serif'
+    Title.Alignment = taCenter
+    Title.Text.Strings = (
+      'TAChart Title'
+    )
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Foot.Font.Height = -11
+    Foot.Font.Name = 'MS Sans Serif'
+    Foot.Alignment = taCenter
+    AllowZoom = True
+    LeftAxis.Visible = True
+    LeftAxis.Title.Angle = 90
+    LeftAxis.Title.Font.Height = -11
+    LeftAxis.Title.Font.Name = 'MS Sans Serif'
+    LeftAxis.Grid.Color = clGray
+    LeftAxis.Grid.Style = psDot
+    LeftAxis.Grid.Visible = True
+    BottomAxis.Visible = True
+    BottomAxis.Title.Font.Height = -11
+    BottomAxis.Title.Font.Name = 'MS Sans Serif'
+    BottomAxis.Grid.Color = clGray
+    BottomAxis.Grid.Style = psDot
+    BottomAxis.Grid.Visible = True
+    Frame.Visible = True
+    BackColor = clWhite
+    AxisVisible = True
+    Color = clSilver
+    ParentColor = False
+  end
+  object PatternID: TEdit
+    Left = 8
+    Height = 21
+    Top = 23
+    Width = 103
+    OnChange = PatternIDChange
+    OnKeyPress = PatternIDKeyPress
+    TabOrder = 0
+  end
+  object Comment: TEdit
+    Left = 120
+    Height = 21
+    Top = 23
+    Width = 349
+    OnChange = PatternIDChange
+    TabOrder = 1
+  end
+  object Grid1: TStringGrid
+    Left = 7
+    Height = 68
+    Top = 57
+    Width = 462
+    ColCount = 25
+    DefaultColWidth = 48
+    FixedColor = clBtnFace
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goAlwaysShowEditor]
+    RowCount = 2
+    ScrollBars = ssHorizontal
+    TabOrder = 2
+    TabStop = True
+    OnClick = Grid1Click
+    OnEnter = Grid1Click
+    OnKeyPress = Grid1KeyPress
+    OnSetEditText = Grid1SetEditText
+  end
+  object BtnOK: TButton
+    Left = 212
+    Height = 25
+    Top = 306
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    ModalResult = 1
+    OnClick = BtnOKClick
+    TabOrder = 3
+  end
+  object BtnCancel: TButton
+    Left = 302
+    Height = 25
+    Top = 306
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 4
+  end
+  object BtnHelp: TButton
+    Left = 392
+    Height = 25
+    Top = 306
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 5
+  end
+  object BtnLoad: TButton
+    Left = 7
+    Height = 25
+    Top = 306
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Load...'
+    OnClick = BtnLoadClick
+    TabOrder = 6
+  end
+  object BtnSave: TButton
+    Left = 95
+    Height = 25
+    Top = 306
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Save...'
+    OnClick = BtnSaveClick
+    TabOrder = 7
+  end
+end

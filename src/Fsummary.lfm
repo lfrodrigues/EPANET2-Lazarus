@@ -1,0 +1,110 @@
+object SummaryForm: TSummaryForm
+  Left = 243
+  Height = 382
+  Top = 126
+  Width = 429
+  HelpContext = 143
+  HorzScrollBar.Page = 428
+  VertScrollBar.Page = 381
+  ActiveControl = EditTitle
+  BorderStyle = bsDialog
+  Caption = 'Project Summary'
+  ClientHeight = 382
+  ClientWidth = 429
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object GroupBox1: TGroupBox
+    Left = 7
+    Height = 74
+    Top = 7
+    Width = 416
+    Caption = 'Title'
+    ClientHeight = 56
+    ClientWidth = 412
+    TabOrder = 0
+    object EditTitle: TEdit
+      Left = 10
+      Height = 21
+      Top = 9
+      Width = 395
+      OnChange = EditTitleChange
+      TabOrder = 0
+    end
+    object CheckHeader: TCheckBox
+      Left = 10
+      Height = 13
+      Top = 41
+      Width = 141
+      Caption = 'Use as header for printing'
+      TabOrder = 1
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 7
+    Height = 120
+    Top = 96
+    Width = 416
+    Caption = 'Notes'
+    ClientHeight = 102
+    ClientWidth = 412
+    TabOrder = 1
+    object MemoNotes: TMemo
+      Left = 10
+      Height = 92
+      Width = 395
+      OnChange = EditTitleChange
+      ScrollBars = ssBoth
+      TabOrder = 0
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 7
+    Height = 136
+    Top = 232
+    Width = 306
+    Caption = 'Statistics'
+    ClientHeight = 118
+    ClientWidth = 302
+    TabOrder = 2
+    object MemoStats: TMemo
+      Left = 10
+      Height = 111
+      Width = 283
+      Color = clBtnFace
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clNavy
+      Font.Height = -11
+      Font.Name = 'Courier New'
+      ReadOnly = True
+      ScrollBars = ssVertical
+      TabOrder = 0
+      WantReturns = False
+    end
+  end
+  object BtnOK: TButton
+    Left = 350
+    Height = 25
+    Top = 239
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = BtnOKClick
+    TabOrder = 3
+  end
+  object BtnCancel: TButton
+    Left = 350
+    Height = 25
+    Top = 282
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 4
+  end
+end

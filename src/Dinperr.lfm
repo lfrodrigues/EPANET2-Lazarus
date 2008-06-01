@@ -1,0 +1,68 @@
+object InpErrForm: TInpErrForm
+  Left = 168
+  Height = 296
+  Top = 174
+  Width = 520
+  HorzScrollBar.Page = 519
+  VertScrollBar.Page = 295
+  ActiveControl = Memo1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Import File Error Report'
+  ClientHeight = 296
+  ClientWidth = 520
+  Font.Height = -10
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object Memo1: TMemo
+    Height = 236
+    Width = 520
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Courier New'
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Height = 60
+    Top = 236
+    Width = 520
+    Align = alBottom
+    ClientHeight = 60
+    ClientWidth = 520
+    TabOrder = 1
+    object Button1: TButton
+      Left = 432
+      Height = 25
+      Top = 16
+      Width = 81
+      BorderSpacing.InnerBorder = 4
+      Caption = '&OK'
+      ModalResult = 1
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 342
+      Height = 25
+      Top = 16
+      Width = 81
+      BorderSpacing.InnerBorder = 4
+      Caption = '&Print'
+      OnClick = Button2Click
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 252
+      Height = 25
+      Top = 16
+      Width = 81
+      BorderSpacing.InnerBorder = 4
+      Caption = '&Error Codes'
+      OnClick = Button3Click
+      TabOrder = 2
+    end
+  end
+end

@@ -1,0 +1,1300 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="6"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <OutDir Value="languages"/>
+    </i18n>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="Printer4Lazarus"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="EpanetComps"/>
+        <MinVersion Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="139">
+      <Unit0>
+        <Filename Value="Epanet2w.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="47" Y="66"/>
+        <TopLine Value="42"/>
+        <UsageCount Value="67"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Fmain.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fmain.lrs"/>
+        <UnitName Value="Fmain"/>
+        <CursorPos X="23" Y="1415"/>
+        <TopLine Value="1414"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="67"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Dabout.pas"/>
+        <ComponentName Value="AboutBoxForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dabout.lrs"/>
+        <UnitName Value="Dabout"/>
+        <CursorPos X="20" Y="37"/>
+        <TopLine Value="31"/>
+        <UsageCount Value="67"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Fbrowser.pas"/>
+        <ComponentName Value="BrowserForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fbrowser.lrs"/>
+        <UnitName Value="Fbrowser"/>
+        <CursorPos X="18" Y="488"/>
+        <TopLine Value="472"/>
+        <UsageCount Value="67"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Fmap.pas"/>
+        <ComponentName Value="MapForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fmap.lrs"/>
+        <UnitName Value="Fmap"/>
+        <CursorPos X="3" Y="463"/>
+        <TopLine Value="457"/>
+        <UsageCount Value="67"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Fovmap.pas"/>
+        <ComponentName Value="OVMapForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fovmap.lrs"/>
+        <UnitName Value="Fovmap"/>
+        <CursorPos X="14" Y="191"/>
+        <TopLine Value="186"/>
+        <UsageCount Value="67"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Umap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Umap"/>
+        <CursorPos X="1" Y="1515"/>
+        <TopLine Value="1501"/>
+        <UsageCount Value="67"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Ufileio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ufileio"/>
+        <CursorPos X="65" Y="19"/>
+        <TopLine Value="9"/>
+        <UsageCount Value="67"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Uglobals.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uglobals"/>
+        <CursorPos X="16" Y="832"/>
+        <TopLine Value="821"/>
+        <UsageCount Value="67"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Uimport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uimport"/>
+        <CursorPos X="9" Y="1706"/>
+        <TopLine Value="1703"/>
+        <UsageCount Value="67"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Uinput.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uinput"/>
+        <CursorPos X="23" Y="221"/>
+        <TopLine Value="208"/>
+        <UsageCount Value="67"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Uoutput.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uoutput"/>
+        <CursorPos X="15" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Uutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uutils"/>
+        <CursorPos X="1" Y="519"/>
+        <TopLine Value="505"/>
+        <UsageCount Value="67"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Dlabel.pas"/>
+        <ComponentName Value="LabelForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dlabel.lrs"/>
+        <UnitName Value="Dlabel"/>
+        <CursorPos X="9" Y="51"/>
+        <TopLine Value="45"/>
+        <UsageCount Value="67"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Dpattern.pas"/>
+        <ComponentName Value="PatternForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dpattern.lrs"/>
+        <UnitName Value="Dpattern"/>
+        <CursorPos X="24" Y="20"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Dcurve.pas"/>
+        <ComponentName Value="CurveForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcurve.lrs"/>
+        <UnitName Value="Dcurve"/>
+        <CursorPos X="16" Y="208"/>
+        <TopLine Value="196"/>
+        <UsageCount Value="67"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Dmapdim.pas"/>
+        <ComponentName Value="MapDimensionsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dmapdim.lrs"/>
+        <UnitName Value="Dmapdim"/>
+        <CursorPos X="51" Y="20"/>
+        <TopLine Value="20"/>
+        <UsageCount Value="67"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="Dcontrol.pas"/>
+        <ComponentName Value="ControlsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcontrol.lrs"/>
+        <UnitName Value="Dcontrol"/>
+        <CursorPos X="12" Y="19"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="Fproped.pas"/>
+        <ComponentName Value="PropEditForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fproped.lrs"/>
+        <UnitName Value="Fproped"/>
+        <CursorPos X="13" Y="5"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="Dmap.pas"/>
+        <ComponentName Value="MapOptionsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dmap.lrs"/>
+        <UnitName Value="Dmap"/>
+        <CursorPos X="22" Y="164"/>
+        <TopLine Value="158"/>
+        <UsageCount Value="67"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="Dlegend.pas"/>
+        <ComponentName Value="LegendForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dlegend.lrs"/>
+        <UnitName Value="Dlegend"/>
+        <CursorPos X="12" Y="9"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="Fstatus.pas"/>
+        <ComponentName Value="StatusForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fstatus.lrs"/>
+        <UnitName Value="Fstatus"/>
+        <CursorPos X="54" Y="167"/>
+        <TopLine Value="144"/>
+        <UsageCount Value="67"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="Fgraph.pas"/>
+        <ComponentName Value="GraphForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fgraph.lrs"/>
+        <UnitName Value="Fgraph"/>
+        <CursorPos X="11" Y="860"/>
+        <TopLine Value="847"/>
+        <UsageCount Value="67"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="Dfind.pas"/>
+        <ComponentName Value="FindForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dfind.lrs"/>
+        <UnitName Value="Dfind"/>
+        <CursorPos X="5" Y="314"/>
+        <TopLine Value="309"/>
+        <UsageCount Value="67"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="Dgrouped.pas"/>
+        <ComponentName Value="GroupEditForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dgrouped.lrs"/>
+        <UnitName Value="Dgrouped"/>
+        <CursorPos X="49" Y="38"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="67"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="Dcalib1.pas"/>
+        <ComponentName Value="CalibDataForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcalib1.lrs"/>
+        <UnitName Value="Dcalib1"/>
+        <CursorPos X="1" Y="199"/>
+        <TopLine Value="181"/>
+        <UsageCount Value="67"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="Ftable.pas"/>
+        <ComponentName Value="TableForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Ftable.lrs"/>
+        <UnitName Value="Ftable"/>
+        <CursorPos X="23" Y="169"/>
+        <TopLine Value="156"/>
+        <UsageCount Value="67"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="Dcalib2.pas"/>
+        <ComponentName Value="CalibOptionsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcalib2.lrs"/>
+        <UnitName Value="Dcalib2"/>
+        <CursorPos X="33" Y="25"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="Fsummary.pas"/>
+        <ComponentName Value="SummaryForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fsummary.lrs"/>
+        <UnitName Value="Fsummary"/>
+        <CursorPos X="46" Y="16"/>
+        <TopLine Value="8"/>
+        <UsageCount Value="67"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="Fcontour.pas"/>
+        <ComponentName Value="ContourForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fcontour.lrs"/>
+        <UnitName Value="Fcontour"/>
+        <CursorPos X="12" Y="1018"/>
+        <TopLine Value="1015"/>
+        <UsageCount Value="67"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="Dcontour.pas"/>
+        <ComponentName Value="ContourOptionsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcontour.lrs"/>
+        <UnitName Value="Dcontour"/>
+        <CursorPos X="63" Y="150"/>
+        <TopLine Value="136"/>
+        <UsageCount Value="67"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Ddataexp.pas"/>
+        <ComponentName Value="DataExportForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Ddataexp.lrs"/>
+        <UnitName Value="Ddataexp"/>
+        <CursorPos X="12" Y="19"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="Dtable.pas"/>
+        <ComponentName Value="TableOptionsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dtable.lrs"/>
+        <UnitName Value="Dtable"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="Udxf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Udxf"/>
+        <CursorPos X="66" Y="19"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="Ddefault.pas"/>
+        <ComponentName Value="DefaultsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Ddefault.lrs"/>
+        <UnitName Value="Ddefault"/>
+        <CursorPos X="77" Y="36"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="67"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Dgraph.pas"/>
+        <ComponentName Value="GraphSelectForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dgraph.lrs"/>
+        <UnitName Value="Dgraph"/>
+        <CursorPos X="1" Y="341"/>
+        <TopLine Value="324"/>
+        <UsageCount Value="67"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="Ddemand.pas"/>
+        <ComponentName Value="DemandsForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Ddemand.lrs"/>
+        <UnitName Value="Ddemand"/>
+        <CursorPos X="21" Y="19"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="PropEdit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PropEdit"/>
+        <CursorPos X="11" Y="67"/>
+        <TopLine Value="62"/>
+        <UsageCount Value="67"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="Fsimul.pas"/>
+        <ComponentName Value="SimulationForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fsimul.lrs"/>
+        <UnitName Value="Fsimul"/>
+        <CursorPos X="26" Y="85"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="67"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="Fenergy.pas"/>
+        <ComponentName Value="EnergyForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fenergy.lrs"/>
+        <UnitName Value="Fenergy"/>
+        <CursorPos X="1" Y="398"/>
+        <TopLine Value="387"/>
+        <UsageCount Value="67"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="Dquery.pas"/>
+        <ComponentName Value="QueryForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dquery.lrs"/>
+        <UnitName Value="Dquery"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="Dprefers.pas"/>
+        <ComponentName Value="PreferencesForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dprefers.lrs"/>
+        <UnitName Value="Dprefers"/>
+        <CursorPos X="6" Y="76"/>
+        <TopLine Value="64"/>
+        <UsageCount Value="67"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Uinifile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uinifile"/>
+        <CursorPos X="6" Y="20"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="Dcopy.pas"/>
+        <ComponentName Value="CopyToForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcopy.lrs"/>
+        <UnitName Value="Dcopy"/>
+        <CursorPos X="12" Y="19"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="Dsource.pas"/>
+        <ComponentName Value="SourceForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dsource.lrs"/>
+        <UnitName Value="Dsource"/>
+        <CursorPos X="14" Y="17"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="67"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="Dinperr.pas"/>
+        <ComponentName Value="InpErrForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dinperr.lrs"/>
+        <UnitName Value="Dinperr"/>
+        <CursorPos X="12" Y="19"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Dmapexp.pas"/>
+        <ComponentName Value="MapExportForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dmapexp.lrs"/>
+        <UnitName Value="Dmapexp"/>
+        <CursorPos X="12" Y="19"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="67"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="epanet2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="epanet2"/>
+        <CursorPos X="15" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="Dcolramp.pas"/>
+        <ComponentName Value="ColorRampForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Dcolramp.lrs"/>
+        <UnitName Value="Dcolramp"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="Ureport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ureport"/>
+        <CursorPos X="58" Y="18"/>
+        <TopLine Value="6"/>
+        <UsageCount Value="67"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="Uexport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uexport"/>
+        <CursorPos X="25" Y="327"/>
+        <TopLine Value="318"/>
+        <UsageCount Value="67"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="XPForm.pas"/>
+        <ComponentName Value="ProgressForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="XPForm.lrs"/>
+        <UnitName Value="XPForm"/>
+        <CursorPos X="37" Y="7"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="67"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="Xprinter.pas"/>
+        <ComponentName Value="PreviewForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Xprinter.lrs"/>
+        <UnitName Value="Xprinter"/>
+        <CursorPos X="76" Y="20"/>
+        <TopLine Value="15"/>
+        <UsageCount Value="67"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="PgSetup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PgSetup"/>
+        <CursorPos X="12" Y="43"/>
+        <TopLine Value="29"/>
+        <UsageCount Value="67"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="PSForm.pas"/>
+        <ComponentName Value="PageSetupForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="PSForm.lrs"/>
+        <UnitName Value="PSForm"/>
+        <CursorPos X="1" Y="20"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="50"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="Fproped.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\lcl\defaulttranslator.pas"/>
+        <UnitName Value="DefaultTranslator"/>
+        <CursorPos X="19" Y="79"/>
+        <TopLine Value="66"/>
+        <UsageCount Value="9"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win\wininc\ascdef.inc"/>
+        <CursorPos X="16" Y="2"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="mymetafile.pas"/>
+        <UnitName Value="mymetafile"/>
+        <CursorPos X="1" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\sysutils\osutilsh.inc"/>
+        <CursorPos X="10" Y="27"/>
+        <TopLine Value="17"/>
+        <UsageCount Value="11"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\lazwork\Fmap.pas"/>
+        <ComponentName Value="MapForm"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="..\lazwork\Fmap.lrs"/>
+        <UnitName Value="Fmap"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win\wininc\redef.inc"/>
+        <CursorPos X="10" Y="695"/>
+        <TopLine Value="682"/>
+        <UsageCount Value="9"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\lcl\include\winapih.inc"/>
+        <CursorPos X="10" Y="85"/>
+        <TopLine Value="72"/>
+        <UsageCount Value="10"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="..\lcl\include\intfbaselcl.inc"/>
+        <CursorPos X="3" Y="24"/>
+        <TopLine Value="24"/>
+        <UsageCount Value="10"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win32\system.pp"/>
+        <UnitName Value="System"/>
+        <CursorPos X="1" Y="290"/>
+        <TopLine Value="277"/>
+        <UsageCount Value="9"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\lcl\include\customform.inc"/>
+        <CursorPos X="1" Y="644"/>
+        <TopLine Value="630"/>
+        <UsageCount Value="10"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <CursorPos X="39" Y="1207"/>
+        <TopLine Value="1184"/>
+        <UsageCount Value="10"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\lcl\include\application.inc"/>
+        <CursorPos X="1" Y="1607"/>
+        <TopLine Value="1594"/>
+        <UsageCount Value="9"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="forms\Fbrowser.pas"/>
+        <UnitName Value="Fbrowser"/>
+        <CursorPos X="15" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="..\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <CursorPos X="15" Y="485"/>
+        <TopLine Value="471"/>
+        <UsageCount Value="12"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="Fbrowser.lfm"/>
+        <CursorPos X="8" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="11"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="forms\fbrowser2.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceFilename Value="forms\fbrowser2.lrs"/>
+        <UnitName Value="Fbrowser2"/>
+        <CursorPos X="20" Y="24"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="46"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="..\components\tachart\tachartlazaruspkg.pas"/>
+        <UnitName Value="TAChartLazarusPkg"/>
+        <CursorPos X="58" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="..\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <CursorPos X="36" Y="7305"/>
+        <TopLine Value="7291"/>
+        <UsageCount Value="10"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="..\lcl\lmessages.pp"/>
+        <UnitName Value="LMessages"/>
+        <CursorPos X="3" Y="204"/>
+        <TopLine Value="191"/>
+        <UsageCount Value="9"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="..\components_lazarus\VirtList.pas"/>
+        <UnitName Value="VirtList"/>
+        <CursorPos X="1" Y="23"/>
+        <TopLine Value="23"/>
+        <UsageCount Value="9"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="..\components_lazarus\NumEdit.pas"/>
+        <UnitName Value="NumEdit"/>
+        <CursorPos X="1" Y="23"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="..\components_lazarus\ComboColor.pas"/>
+        <UnitName Value="ComboColor"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="..\lcl\include\control.inc"/>
+        <CursorPos X="1" Y="2383"/>
+        <TopLine Value="2370"/>
+        <UsageCount Value="9"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\classes\classesh.inc"/>
+        <CursorPos X="13" Y="87"/>
+        <TopLine Value="82"/>
+        <UsageCount Value="10"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\classes\stringl.inc"/>
+        <CursorPos X="3" Y="496"/>
+        <TopLine Value="493"/>
+        <UsageCount Value="9"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="forms\Dcurve.pas"/>
+        <UnitName Value="Dcurve"/>
+        <CursorPos X="1" Y="646"/>
+        <TopLine Value="620"/>
+        <UsageCount Value="9"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="Dpattern.lfm"/>
+        <CursorPos X="26" Y="50"/>
+        <TopLine Value="50"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="..\components\tachart\TAGraph.pas"/>
+        <UnitName Value="TAGraph"/>
+        <CursorPos X="65" Y="37"/>
+        <TopLine Value="15"/>
+        <UsageCount Value="11"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="Dcurve.lfm"/>
+        <CursorPos X="14" Y="65"/>
+        <TopLine Value="65"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="forms\Fgraph.pas"/>
+        <UnitName Value="Fgraph"/>
+        <CursorPos X="20" Y="14"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="..\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <CursorPos X="14" Y="1847"/>
+        <TopLine Value="1834"/>
+        <UsageCount Value="9"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="..\lcl\imglist.pp"/>
+        <UnitName Value="ImgList"/>
+        <CursorPos X="10" Y="257"/>
+        <TopLine Value="221"/>
+        <UsageCount Value="9"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="..\lcl\include\imglist.inc"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="..\lcl\include\dragimagelist.inc"/>
+        <CursorPos X="34" Y="182"/>
+        <TopLine Value="154"/>
+        <UsageCount Value="9"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="..\lcl\widgetset\wscontrols.pp"/>
+        <UnitName Value="WSControls"/>
+        <CursorPos X="3" Y="279"/>
+        <TopLine Value="276"/>
+        <UsageCount Value="9"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="..\lcl\interfaces\win32\win32listsl.inc"/>
+        <CursorPos X="17" Y="167"/>
+        <TopLine Value="161"/>
+        <UsageCount Value="10"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="..\lcl\include\wincontrol.inc"/>
+        <CursorPos X="1" Y="2622"/>
+        <TopLine Value="2611"/>
+        <UsageCount Value="9"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="forms\Dmap.pas"/>
+        <UnitName Value="Dmap"/>
+        <CursorPos X="15" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="Dmap.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win\messages.pp"/>
+        <UnitName Value="messages"/>
+        <CursorPos X="13" Y="11"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win\wininc\messages.inc"/>
+        <CursorPos X="1" Y="953"/>
+        <TopLine Value="953"/>
+        <UsageCount Value="9"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="..\lcl\include\custompage.inc"/>
+        <CursorPos X="1" Y="58"/>
+        <TopLine Value="45"/>
+        <UsageCount Value="9"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="forms\PSForm.pas"/>
+        <UnitName Value="PSForm"/>
+        <CursorPos X="10" Y="36"/>
+        <TopLine Value="27"/>
+        <UsageCount Value="9"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\sysutils\osutil.inc"/>
+        <CursorPos X="3" Y="180"/>
+        <TopLine Value="152"/>
+        <UsageCount Value="9"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="..\print\PrintDr1.pas"/>
+        <ComponentName Value="PreviewForm"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="..\PRINT\PrintDr1.lrs"/>
+        <UnitName Value="PrintDr1"/>
+        <CursorPos X="4" Y="1846"/>
+        <TopLine Value="1834"/>
+        <UsageCount Value="9"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="..\print\PrintDr2.pas"/>
+        <ComponentName Value="PrintBarForm"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="..\PRINT\PrintDr2.lrs"/>
+        <UnitName Value="PrintDr2"/>
+        <CursorPos X="23" Y="22"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="..\print\PrintDrv.pas"/>
+        <UnitName Value="PrintDrv"/>
+        <CursorPos X="1" Y="4093"/>
+        <TopLine Value="4072"/>
+        <UsageCount Value="9"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="..\lcl\printers.pas"/>
+        <UnitName Value="Printers"/>
+        <CursorPos X="3" Y="159"/>
+        <TopLine Value="147"/>
+        <UsageCount Value="9"/>
+      </Unit103>
+      <Unit104>
+        <Filename Value="..\PRINT\printprev.pas"/>
+        <UnitName Value="PrintPrev"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit104>
+      <Unit105>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <CursorPos X="10" Y="84"/>
+        <TopLine Value="72"/>
+        <UsageCount Value="9"/>
+      </Unit105>
+      <Unit106>
+        <Filename Value="..\lcl\lclproc.pas"/>
+        <UnitName Value="LCLProc"/>
+        <CursorPos X="31" Y="243"/>
+        <TopLine Value="231"/>
+        <UsageCount Value="9"/>
+      </Unit106>
+      <Unit107>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\types.pp"/>
+        <UnitName Value="types"/>
+        <CursorPos X="7" Y="88"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="9"/>
+      </Unit107>
+      <Unit108>
+        <Filename Value="..\fpc\2.1.5\source\rtl\win\wininc\struct.inc"/>
+        <CursorPos X="6" Y="2700"/>
+        <TopLine Value="2688"/>
+        <UsageCount Value="9"/>
+      </Unit108>
+      <Unit109>
+        <Filename Value="..\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="63" Y="1001"/>
+        <TopLine Value="1001"/>
+        <UsageCount Value="11"/>
+      </Unit109>
+      <Unit110>
+        <Filename Value="forms\Fenergy.pas"/>
+        <UnitName Value="Fenergy"/>
+        <CursorPos X="15" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit110>
+      <Unit111>
+        <Filename Value="Fenergy.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit111>
+      <Unit112>
+        <Filename Value="..\lcl\include\winapi.inc"/>
+        <CursorPos X="23" Y="191"/>
+        <TopLine Value="183"/>
+        <UsageCount Value="10"/>
+      </Unit112>
+      <Unit113>
+        <Filename Value="..\lcl\interfaces\win32\win32winapi.inc"/>
+        <CursorPos X="24" Y="1317"/>
+        <TopLine Value="1304"/>
+        <UsageCount Value="9"/>
+      </Unit113>
+      <Unit114>
+        <Filename Value="..\lcl\include\canvas.inc"/>
+        <CursorPos X="1" Y="1068"/>
+        <TopLine Value="1057"/>
+        <UsageCount Value="11"/>
+      </Unit114>
+      <Unit115>
+        <Filename Value="..\fpc\2.1.5\source\rtl\objpas\sysutils\syspchh.inc"/>
+        <CursorPos X="10" Y="35"/>
+        <TopLine Value="15"/>
+        <UsageCount Value="9"/>
+      </Unit115>
+      <Unit116>
+        <Filename Value="..\fpc\2.1.5\source\rtl\i386\strings.inc"/>
+        <CursorPos X="1" Y="627"/>
+        <TopLine Value="601"/>
+        <UsageCount Value="9"/>
+      </Unit116>
+      <Unit117>
+        <Filename Value="C:\Programas\Borland\Delphi 3\Source\Vcl\GRIDS.PAS"/>
+        <UnitName Value="Grids"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit117>
+      <Unit118>
+        <Filename Value="..\lcl\dynamicarray.pas"/>
+        <UnitName Value="DynamicArray"/>
+        <CursorPos X="9" Y="36"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="9"/>
+      </Unit118>
+      <Unit119>
+        <Filename Value="forms\Fcalib.pas"/>
+        <UnitName Value="Fcalib"/>
+        <CursorPos X="11" Y="60"/>
+        <TopLine Value="57"/>
+        <UsageCount Value="9"/>
+      </Unit119>
+      <Unit120>
+        <Filename Value="..\lcl\chart.pp"/>
+        <UnitName Value="Chart"/>
+        <CursorPos X="1" Y="342"/>
+        <TopLine Value="315"/>
+        <UsageCount Value="9"/>
+      </Unit120>
+      <Unit121>
+        <Filename Value="Fcalib.pas"/>
+        <ComponentName Value="CalibReportForm"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="Fcalib.lrs"/>
+        <UnitName Value="Fcalib"/>
+        <CursorPos X="29" Y="57"/>
+        <TopLine Value="48"/>
+        <UsageCount Value="35"/>
+      </Unit121>
+      <Unit122>
+        <Filename Value="..\components\tachart\TAEngine.pas"/>
+        <UnitName Value="TAEngine"/>
+        <CursorPos X="6" Y="42"/>
+        <TopLine Value="26"/>
+        <UsageCount Value="9"/>
+      </Unit122>
+      <Unit123>
+        <Filename Value="..\components\tachart\TASeries.pas"/>
+        <UnitName Value="TASeries"/>
+        <CursorPos X="12" Y="1529"/>
+        <TopLine Value="1515"/>
+        <UsageCount Value="9"/>
+      </Unit123>
+      <Unit124>
+        <Filename Value="..\lcl\checklst.pas"/>
+        <UnitName Value="CheckLst"/>
+        <CursorPos X="4" Y="22"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="9"/>
+      </Unit124>
+      <Unit125>
+        <Filename Value="Dquery.lfm"/>
+        <CursorPos X="11" Y="12"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit125>
+      <Unit126>
+        <Filename Value="..\..\components\tachart\tagraph.pas"/>
+        <UnitName Value="TAGraph"/>
+        <CursorPos X="26" Y="1441"/>
+        <TopLine Value="1426"/>
+        <UsageCount Value="13"/>
+      </Unit126>
+      <Unit127>
+        <Filename Value="..\..\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <CursorPos X="15" Y="1189"/>
+        <TopLine Value="1176"/>
+        <UsageCount Value="9"/>
+      </Unit127>
+      <Unit128>
+        <Filename Value="..\..\lcl\include\control.inc"/>
+        <CursorPos X="68" Y="2597"/>
+        <TopLine Value="2590"/>
+        <UsageCount Value="9"/>
+      </Unit128>
+      <Unit129>
+        <Filename Value="Dfind.lfm"/>
+        <CursorPos X="42" Y="7"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit129>
+      <Unit130>
+        <Filename Value="luis\luios.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="luis\luios.lrs"/>
+        <UnitName Value="luios"/>
+        <CursorPos X="16" Y="34"/>
+        <TopLine Value="8"/>
+        <UsageCount Value="21"/>
+      </Unit130>
+      <Unit131>
+        <Filename Value="luis\label.pas"/>
+        <ComponentName Value="LabelForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="luis\label.lrs"/>
+        <UnitName Value="label"/>
+        <CursorPos X="11" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="20"/>
+      </Unit131>
+      <Unit132>
+        <Filename Value="luis\legend.pas"/>
+        <ComponentName Value="Form3"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="luis\legend.lrs"/>
+        <UnitName Value="legend"/>
+        <CursorPos X="17" Y="51"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="20"/>
+      </Unit132>
+      <Unit133>
+        <Filename Value="Dlegend.lfm"/>
+        <CursorPos X="8" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit133>
+      <Unit134>
+        <Filename Value="luis\legend2.pas"/>
+        <ComponentName Value="Form4"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="luis\legend2.lrs"/>
+        <UnitName Value="legend2"/>
+        <CursorPos X="18" Y="51"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="20"/>
+      </Unit134>
+      <Unit135>
+        <Filename Value="luis\query.pas"/>
+        <ComponentName Value="Form5"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="luis\query.lrs"/>
+        <UnitName Value="query"/>
+        <CursorPos X="16" Y="34"/>
+        <TopLine Value="8"/>
+        <UsageCount Value="19"/>
+      </Unit135>
+      <Unit136>
+        <Filename Value="luis\browser.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="luis\browser.lrs"/>
+        <UnitName Value="browser"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit136>
+      <Unit137>
+        <Filename Value="luis\browser.lfm"/>
+        <CursorPos X="22" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit137>
+      <Unit138>
+        <Filename Value="..\..\components\tachart\taseries.pas"/>
+        <UnitName Value="TASeries"/>
+        <CursorPos X="15" Y="62"/>
+        <TopLine Value="49"/>
+        <UsageCount Value="13"/>
+      </Unit138>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="6">
+      <Item1>
+        <Source Value="Fbrowser.pas"/>
+        <Line Value="358"/>
+      </Item1>
+      <Item2>
+        <Source Value="Dtable.pas"/>
+        <Line Value="222"/>
+      </Item2>
+      <Item3>
+        <Source Value="Dmap.pas"/>
+        <Line Value="154"/>
+      </Item3>
+      <Item4>
+        <Source Value="Fmain.pas"/>
+        <Line Value="817"/>
+      </Item4>
+      <Item5>
+        <Source Value="Fmain.pas"/>
+        <Line Value="1153"/>
+      </Item5>
+      <Item6>
+        <Source Value="..\..\components\tachart\taseries.pas"/>
+        <Line Value="406"/>
+      </Item6>
+    </BreakPoints>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

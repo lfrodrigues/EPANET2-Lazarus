@@ -1,0 +1,33 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TSummaryForm','FORMDATA',[
+  'TPF0'#12'TSummaryForm'#11'SummaryForm'#4'Left'#3#243#0#6'Height'#3'~'#1#3'To'
+  +'p'#2'~'#5'Width'#3#173#1#11'HelpContext'#3#143#0#18'HorzScrollBar.Page'#3
+  +#172#1#18'VertScrollBar.Page'#3'}'#1#13'ActiveControl'#7#9'EditTitle'#11'Bor'
+  +'derStyle'#7#8'bsDialog'#7'Caption'#6#15'Project Summary'#12'ClientHeight'#3
+  +'~'#1#11'ClientWidth'#3#173#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#11'Font.He'
+  +'ight'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCreate'#8
+  +'Position'#7#14'poScreenCenter'#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#7#6'He'
+  +'ight'#2'J'#3'Top'#2#7#5'Width'#3#160#1#7'Caption'#6#5'Title'#12'ClientHeigh'
+  +'t'#2'8'#11'ClientWidth'#3#156#1#8'TabOrder'#2#0#0#5'TEdit'#9'EditTitle'#4'L'
+  +'eft'#2#10#6'Height'#2#21#3'Top'#2#9#5'Width'#3#139#1#8'OnChange'#7#15'EditT'
+  +'itleChange'#8'TabOrder'#2#0#0#0#9'TCheckBox'#11'CheckHeader'#4'Left'#2#10#6
+  +'Height'#2#13#3'Top'#2')'#5'Width'#3#141#0#7'Caption'#6#26'Use as header for'
+  +' printing'#8'TabOrder'#2#1#0#0#0#9'TGroupBox'#9'GroupBox2'#4'Left'#2#7#6'He'
+  +'ight'#2'x'#3'Top'#2'`'#5'Width'#3#160#1#7'Caption'#6#5'Notes'#12'ClientHeig'
+  +'ht'#2'f'#11'ClientWidth'#3#156#1#8'TabOrder'#2#1#0#5'TMemo'#9'MemoNotes'#4
+  +'Left'#2#10#6'Height'#2'\'#5'Width'#3#139#1#8'OnChange'#7#15'EditTitleChange'
+  +#10'ScrollBars'#7#6'ssBoth'#8'TabOrder'#2#0#0#0#0#9'TGroupBox'#9'GroupBox3'#4
+  +'Left'#2#7#6'Height'#3#136#0#3'Top'#3#232#0#5'Width'#3'2'#1#7'Caption'#6#10
+  +'Statistics'#12'ClientHeight'#2'v'#11'ClientWidth'#3'.'#1#8'TabOrder'#2#2#0#5
+  +'TMemo'#9'MemoStats'#4'Left'#2#10#6'Height'#2'o'#5'Width'#3#27#1#5'Color'#7#9
+  +'clBtnFace'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11
+  +'Font.Height'#2#245#9'Font.Name'#6#11'Courier New'#8'ReadOnly'#9#10'ScrollBa'
+  +'rs'#7#10'ssVertical'#8'TabOrder'#2#0#11'WantReturns'#8#0#0#0#7'TButton'#5'B'
+  +'tnOK'#4'Left'#3'^'#1#6'Height'#2#25#3'Top'#3#239#0#5'Width'#2'K'#25'BorderS'
+  +'pacing.InnerBorder'#2#4#7'Caption'#6#2'OK'#7'Default'#9#11'ModalResult'#2#1
+  +#7'OnClick'#7#10'BtnOKClick'#8'TabOrder'#2#3#0#0#7'TButton'#9'BtnCancel'#4'L'
+  +'eft'#3'^'#1#6'Height'#2#25#3'Top'#3#26#1#5'Width'#2'K'#25'BorderSpacing.Inn'
+  +'erBorder'#2#4#6'Cancel'#9#7'Caption'#6#6'Cancel'#11'ModalResult'#2#2#8'TabO'
+  +'rder'#2#4#0#0#0
+]);

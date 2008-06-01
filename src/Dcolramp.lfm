@@ -1,0 +1,81 @@
+object ColorRampForm: TColorRampForm
+  Left = 200
+  Height = 124
+  Top = 108
+  Width = 193
+  HorzScrollBar.Page = 192
+  VertScrollBar.Page = 123
+  ActiveControl = ComboBox1
+  BorderStyle = bsDialog
+  Caption = 'Color Ramp Selector'
+  ClientHeight = 124
+  ClientWidth = 193
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object Shape0: TShape
+    Left = 16
+    Height = 17
+    Top = 8
+    Width = 33
+  end
+  object Shape1: TShape
+    Left = 48
+    Height = 17
+    Top = 8
+    Width = 33
+  end
+  object Shape2: TShape
+    Left = 80
+    Height = 17
+    Top = 8
+    Width = 33
+  end
+  object Shape3: TShape
+    Left = 112
+    Height = 17
+    Top = 8
+    Width = 33
+  end
+  object Shape4: TShape
+    Left = 144
+    Height = 17
+    Top = 8
+    Width = 33
+  end
+  object ComboBox1: TComboBox
+    Left = 16
+    Height = 21
+    Top = 40
+    Width = 161
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    DropDownCount = 9
+    ItemHeight = 13
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 80
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 25
+    Top = 80
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,22 @@
+object PropEditForm: TPropEditForm
+  Left = 132
+  Height = 240
+  Top = 132
+  Width = 320
+  HorzScrollBar.Page = 319
+  VertScrollBar.Page = 239
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Property Editor'
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'Arial'
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  Position = poDefaultPosOnly
+end

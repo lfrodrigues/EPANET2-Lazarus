@@ -1,0 +1,28 @@
+LazarusResources.Add('TControlsForm','FORMDATA',[
+  'TPF0'#13'TControlsForm'#12'ControlsForm'#4'Left'#3#160#0#6'Height'#3'"'#1#3
+  +'Top'#3#164#0#5'Width'#3#180#1#18'HorzScrollBar.Page'#3#179#1#18'VertScrollB'
+  +'ar.Page'#3'!'#1#13'ActiveControl'#7#5'Memo1'#11'BorderIcons'#11#12'biSystem'
+  +'Menu'#0#7'Caption'#6#15'Controls Editor'#12'ClientHeight'#3'"'#1#11'ClientW'
+  +'idth'#3#180#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlac'
+  +'k'#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10
+  +'FormCreate'#8'Position'#7#14'poScreenCenter'#0#5'TMemo'#5'Memo1'#6'Height'#3
+  +#229#0#5'Width'#3#180#1#5'Align'#7#8'alClient'#12'Font.CharSet'#7#12'ANSI_CH'
+  +'ARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#245#9'Font.Name'#6#11
+  +'Courier New'#10'ScrollBars'#7#6'ssBoth'#8'TabOrder'#2#0#8'WordWrap'#8#0#0#10
+  +'TStatusBar'#10'StatusBar1'#6'Height'#2#20#3'Top'#3#14#1#5'Width'#3#180#1#6
+  +'Panels'#14#1#4'Text'#6'3 Click Help to review format of Controls statements'
+  +#5'Width'#2#10#0#0#11'SimplePanel'#8#0#0#6'TPanel'#6'Panel1'#6'Height'#2')'#3
+  +'Top'#3#229#0#5'Width'#3#180#1#5'Align'#7#8'alBottom'#9'Alignment'#7#13'taLe'
+  +'ftJustify'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2')'#11'ClientWidth'
+  +#3#180#1#8'TabOrder'#2#1#0#6'TPanel'#6'Panel2'#4'Left'#3#139#0#6'Height'#2')'
+  +#5'Width'#3')'#1#5'Align'#7#7'alRight'#10'BevelOuter'#7#6'bvNone'#12'ClientH'
+  +'eight'#2')'#11'ClientWidth'#3')'#1#8'TabOrder'#2#0#0#7'TButton'#5'BtnOK'#4
+  +'Left'#2#10#6'Height'#2#25#3'Top'#2#8#5'Width'#2'K'#25'BorderSpacing.InnerBo'
+  +'rder'#2#4#7'Caption'#6#2'OK'#7'Default'#9#11'ModalResult'#2#1#7'OnClick'#7
+  +#10'BtnOKClick'#8'TabOrder'#2#0#0#0#7'TButton'#9'BtnCancel'#4'Left'#2'j'#6'H'
+  +'eight'#2#25#3'Top'#2#8#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#6'Ca'
+  +'ncel'#9#7'Caption'#6#6'Cancel'#11'ModalResult'#2#2#8'TabOrder'#2#1#0#0#7'TB'
+  +'utton'#7'BtnHelp'#4'Left'#3#202#0#6'Height'#2#25#3'Top'#2#8#5'Width'#2'K'#25
+  +'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#5'&Help'#7'OnClick'#7#12'BtnHel'
+  +'pClick'#8'TabOrder'#2#2#0#0#0#0#0
+]);

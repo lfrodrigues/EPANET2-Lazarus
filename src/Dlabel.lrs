@@ -1,0 +1,19 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TLabelForm','FORMDATA',[
+  'TPF0'#10'TLabelForm'#9'LabelForm'#4'Left'#3'$'#1#6'Height'#2'$'#3'Top'#3#161
+  +#0#5'Width'#2'|'#18'HorzScrollBar.Page'#2'{'#18'VertScrollBar.Page'#2'#'#13
+  +'ActiveControl'#7#5'Edit1'#11'BorderIcons'#11#0#11'BorderStyle'#7#6'bsNone'#7
+  +'Caption'#6#9'LabelForm'#12'ClientHeight'#2'$'#11'ClientWidth'#2'|'#7'OnClos'
+  +'e'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#8'Position'#7#14'poScreenCen'
+  +'ter'#10'LCLVersion'#6#6'0.9.25'#0#5'TEdit'#5'Edit1'#4'Left'#2#1#6'Height'#2
+  +#20#3'Top'#2#2#5'Width'#2'k'#10'OnKeyPress'#7#13'Edit1KeyPress'#8'TabOrder'#2
+  +#0#0#0#0#10'TLabelForm'#9'LabelForm'#4'Left'#3'$'#1#6'Height'#2'$'#3'Top'#3
+  +#161#0#5'Width'#2'|'#18'HorzScrollBar.Page'#2'{'#18'VertScrollBar.Page'#2'#'
+  +#13'ActiveControl'#7#5'Edit1'#11'BorderIcons'#11#0#11'BorderStyle'#7#6'bsNon'
+  +'e'#7'Caption'#6#9'LabelForm'#12'ClientHeight'#2'$'#11'ClientWidth'#2'|'#7'O'
+  +'nClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#8'Position'#7#14'poScre'
+  +'enCenter'#10'LCLVersion'#6#6'0.9.25'#0#5'TEdit'#5'Edit1'#4'Left'#2#1#6'Heig'
+  +'ht'#2#20#3'Top'#2#2#5'Width'#2'k'#10'OnKeyPress'#7#13'Edit1KeyPress'#8'TabO'
+  +'rder'#2#0#0#0#0
+]);

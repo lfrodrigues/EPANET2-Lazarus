@@ -1,0 +1,13 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TPropEditForm','FORMDATA',[
+  'TPF0'#13'TPropEditForm'#12'PropEditForm'#4'Left'#3#132#0#6'Height'#3#240#0#3
+  +'Top'#3#132#0#5'Width'#3'@'#1#18'HorzScrollBar.Page'#3'?'#1#18'VertScrollBar'
+  +'.Page'#3#239#0#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#13'b'
+  +'sSizeToolWin'#7'Caption'#6#15'Property Editor'#12'Font.CharSet'#7#12'ANSI_C'
+  +'HARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#245#9'Font.Name'#6#5
+  +'Arial'#9'FormStyle'#7#11'fsStayOnTop'#7'OnClose'#7#9'FormClose'#8'OnCreate'
+  +#7#10'FormCreate'#12'OnDeactivate'#7#14'FormDeactivate'#9'OnDestroy'#7#11'Fo'
+  +'rmDestroy'#9'OnKeyDown'#7#11'FormKeyDown'#8'Position'#7#16'poDefaultPosOnly'
+  +#0#0
+]);

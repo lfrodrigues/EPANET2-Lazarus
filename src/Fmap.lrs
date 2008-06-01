@@ -1,0 +1,131 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMapForm','FORMDATA',[
+  'TPF0'#8'TMapForm'#7'MapForm'#4'Left'#3'?'#1#6'Height'#3'='#1#3'Top'#3#225#0#5
+  +'Width'#3#129#1#11'HelpContext'#2'p'#18'HorzScrollBar.Page'#3#128#1#18'VertS'
+  +'crollBar.Page'#3'<'#1#11'BorderIcons'#11#12'biSystemMenu'#10'biMinimize'#0
+  +#11'BorderStyle'#7#12'bsToolWindow'#7'Caption'#6#11'Network Map'#12'ClientHe'
+  +'ight'#3'='#1#11'ClientWidth'#3#129#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Se'
+  +'rif'#10'KeyPreview'#9#10'OnActivate'#7#12'FormActivate'#7'OnClose'#7#9'Form'
+  +'Close'#8'OnCreate'#7#10'FormCreate'#10'OnDblClick'#7#12'FormDblClick'#9'OnD'
+  +'estroy'#7#11'FormDestroy'#9'OnKeyDown'#7#11'FormKeyDown'#11'OnMouseDown'#7
+  +#13'FormMouseDown'#11'OnMouseMove'#7#13'FormMouseMove'#9'OnMouseUp'#7#11'For'
+  +'mMouseUp'#7'OnPaint'#7#9'FormPaint'#8'OnResize'#7#10'FormResize'#8'Position'
+  +#7#14'poScreenCenter'#10'LCLVersion'#6#6'0.9.25'#7'Visible'#9#0#6'TPanel'#15
+  +'NodeLegendPanel'#4'Left'#2#4#6'Height'#3#180#0#3'Top'#2'2'#5'Width'#2'n'#10
+  +'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#180#0#11'ClientWidth'#2'n'#8'Tab'
+  +'Order'#2#0#7'Visible'#8#0#9'TPaintBox'#13'NodeLegendBox'#6'Height'#3#180#0#5
+  +'Width'#2'n'#5'Align'#7#8'alClient'#10'OnDblClick'#7#21'NodeLegendBoxDblClic'
+  +'k'#11'OnMouseDown'#7#10'DragLegend'#7'OnPaint'#7#18'NodeLegendBoxPaint'#0#0
+  +#0#6'TPanel'#15'LinkLegendPanel'#4'Left'#3#130#0#6'Height'#3#180#0#3'Top'#2
+  +'2'#5'Width'#2'n'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#180#0#11'Cli'
+  +'entWidth'#2'n'#8'TabOrder'#2#1#7'Visible'#8#0#9'TPaintBox'#13'LinkLegendBox'
+  +#6'Height'#3#180#0#5'Width'#2'n'#5'Align'#7#8'alClient'#10'OnDblClick'#7#21
+  +'LinkLegendBoxDblClick'#11'OnMouseDown'#7#10'DragLegend'#7'OnPaint'#7#18'Lin'
+  +'kLegendBoxPaint'#0#0#0#6'TPanel'#9'HintPanel'#4'Left'#3#0#1#6'Height'#2#25#3
+  +'Top'#2'0'#5'Width'#2'9'#9'Alignment'#7#13'taLeftJustify'#10'BevelInner'#7#8
+  +'bvRaised'#10'BevelOuter'#7#9'bvLowered'#12'ClientHeight'#2#25#11'ClientWidt'
+  +'h'#2'9'#5'Color'#7#8'clInfoBk'#11'FullRepaint'#8#11'ParentColor'#8#8'TabOrd'
+  +'er'#2#2#0#6'TLabel'#9'HintLabel'#4'Left'#2#2#6'Height'#2#21#3'Top'#2#2#5'Wi'
+  +'dth'#2'5'#5'Align'#7#8'alClient'#9'Alignment'#7#8'taCenter'#7'Caption'#6#9
+  +'HintLabel'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#11'ParentColor'#8#0#0
+  +#0#6'TPanel'#15'TimeLegendPanel'#4'Left'#2#16#6'Height'#2#25#3'Top'#2#8#5'Wi'
+  +'dth'#3#129#0#10'BevelInner'#7#8'bvRaised'#10'BevelOuter'#7#9'bvLowered'#7'C'
+  +'aption'#6#15'TimeLegendPanel'#5'Color'#7#7'clBlack'#12'Font.CharSet'#7#12'A'
+  +'NSI_CHARSET'#10'Font.Color'#7#6'clLime'#11'Font.Height'#2#244#9'Font.Name'#6
+  +#5'Arial'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#8'TabOrder'#2#3#7
+  +'Visible'#8#10'OnDblClick'#7#23'TimeLegendPanelDblClick'#11'OnMouseDown'#7#24
+  +'TimeLegendPanelMouseDown'#0#0#10'TPopupMenu'#10'PopupMenu1'#9'AutoPopup'#8#7
+  +'OnPopup'#7#15'PopupMenu1Popup'#4'left'#3'2'#1#3'top'#3#187#0#0#9'TMenuItem'
+  +#9'PopupCopy'#7'Caption'#6#4'Copy'#7'OnClick'#7#14'PopupCopyClick'#0#0#9'TMe'
+  +'nuItem'#10'PopupPaste'#7'Caption'#6#5'Paste'#7'OnClick'#7#15'PopupPasteClic'
+  +'k'#0#0#9'TMenuItem'#11'PopupDelete'#7'Caption'#6#6'Delete'#7'OnClick'#7#16
+  +'PopupDeleteClick'#0#0#9'TMenuItem'#12'PopupReverse'#7'Caption'#6#7'Reverse'
+  +#7'OnClick'#7#17'PopupReverseClick'#0#0#9'TMenuItem'#2'N4'#7'Caption'#6#1'-'
+  +#0#0#9'TMenuItem'#13'PopupVertices'#7'Caption'#6#8'Vertices'#7'OnClick'#7#18
+  +'PopupVerticesClick'#0#0#9'TMenuItem'#15'PopupProperties'#7'Caption'#6#10'Pr'
+  +'operties'#7'OnClick'#7#20'PopupPropertiesClick'#0#0#0#6'TTimer'#6'Timer1'#7
+  +'Enabled'#8#8'Interval'#3#244#1#7'OnTimer'#7#11'Timer1Timer'#4'left'#3'T'#1#3
+  +'top'#3#187#0#0#0#10'TPopupMenu'#10'PopupMenu2'#7'OnPopup'#7#15'PopupMenu2Po'
+  +'pup'#4'left'#3'0'#1#3'top'#3#224#0#0#9'TMenuItem'#15'PopupNodeLegend'#7'Cap'
+  +'tion'#6#11'Node Legend'#7'OnClick'#7#20'PopupNodeLegendClick'#0#0#9'TMenuIt'
+  +'em'#15'PopupLinkLegend'#7'Caption'#6#11'Link Legend'#7'OnClick'#7#20'PopupL'
+  +'inkLegendClick'#0#0#9'TMenuItem'#15'PopupTimeLegend'#7'Caption'#6#11'Time L'
+  +'egend'#7'OnClick'#7#20'PopupTimeLegendClick'#0#0#9'TMenuItem'#13'PopupBackd'
+  +'rop'#7'Caption'#6#8'Backdrop'#7'Enabled'#8#7'OnClick'#7#18'PopupBackdropCli'
+  +'ck'#0#0#9'TMenuItem'#2'N1'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#12'PopupOptio'
+  +'ns'#7'Caption'#6#7'Options'#7'OnClick'#7#17'PopupOptionsClick'#0#0#0#10'TPo'
+  +'pupMenu'#10'PopupMenu3'#7'OnPopup'#7#15'PopupMenu3Popup'#4'left'#3'0'#1#3't'
+  +'op'#3#8#1#0#9'TMenuItem'#14'PopupAddVertex'#7'Caption'#6#10'Add Vertex'#7'O'
+  +'nClick'#7#19'PopupAddVertexClick'#0#0#9'TMenuItem'#17'PopupDeleteVertex'#7
+  +'Caption'#6#13'Delete Vertex'#7'OnClick'#7#22'PopupDeleteVertexClick'#0#0#9
+  +'TMenuItem'#2'N2'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#16'PopupQuitEditing'#7
+  +'Caption'#6#12'Quit Editing'#7'OnClick'#7#21'PopupQuitEditingClick'#0#0#0#6
+  +'TTimer'#6'Timer2'#8'Interval'#3#244#1#7'OnTimer'#7#11'Timer2Timer'#4'left'#3
+  +'T'#1#3'top'#3#224#0#0#0#0#8'TMapForm'#7'MapForm'#4'Left'#3'?'#1#6'Height'#3
+  ,'='#1#3'Top'#3#225#0#5'Width'#3#129#1#11'HelpContext'#2'p'#18'HorzScrollBar.'
+  +'Page'#3#128#1#18'VertScrollBar.Page'#3'<'#1#11'BorderIcons'#11#12'biSystemM'
+  +'enu'#10'biMinimize'#0#11'BorderStyle'#7#12'bsToolWindow'#7'Caption'#6#11'Ne'
+  +'twork Map'#12'ClientHeight'#3'='#1#11'ClientWidth'#3#129#1#12'Font.CharSet'
+  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#245#9'Font'
+  +'.Name'#6#13'MS Sans Serif'#10'KeyPreview'#9#10'OnActivate'#7#12'FormActivat'
+  +'e'#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#10'OnDblClick'#7
+  +#12'FormDblClick'#9'OnDestroy'#7#11'FormDestroy'#9'OnKeyDown'#7#11'FormKeyDo'
+  +'wn'#11'OnMouseDown'#7#13'FormMouseDown'#11'OnMouseMove'#7#13'FormMouseMove'
+  +#9'OnMouseUp'#7#11'FormMouseUp'#7'OnPaint'#7#9'FormPaint'#8'OnResize'#7#10'F'
+  +'ormResize'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#6'0.9.25'#7'Vi'
+  +'sible'#9#0#6'TPanel'#15'NodeLegendPanel'#4'Left'#2#4#6'Height'#3#180#0#3'To'
+  +'p'#2'2'#5'Width'#2'n'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#180#0#11
+  +'ClientWidth'#2'n'#8'TabOrder'#2#0#7'Visible'#8#0#9'TPaintBox'#13'NodeLegend'
+  +'Box'#6'Height'#3#180#0#5'Width'#2'n'#5'Align'#7#8'alClient'#10'OnDblClick'#7
+  +#21'NodeLegendBoxDblClick'#11'OnMouseDown'#7#10'DragLegend'#7'OnPaint'#7#18
+  +'NodeLegendBoxPaint'#0#0#0#6'TPanel'#15'LinkLegendPanel'#4'Left'#3#130#0#6'H'
+  +'eight'#3#180#0#3'Top'#2'2'#5'Width'#2'n'#10'BevelOuter'#7#6'bvNone'#12'Clie'
+  +'ntHeight'#3#180#0#11'ClientWidth'#2'n'#8'TabOrder'#2#1#7'Visible'#8#0#9'TPa'
+  +'intBox'#13'LinkLegendBox'#6'Height'#3#180#0#5'Width'#2'n'#5'Align'#7#8'alCl'
+  +'ient'#10'OnDblClick'#7#21'LinkLegendBoxDblClick'#11'OnMouseDown'#7#10'DragL'
+  +'egend'#7'OnPaint'#7#18'LinkLegendBoxPaint'#0#0#0#6'TPanel'#9'HintPanel'#4'L'
+  +'eft'#3#0#1#6'Height'#2#25#3'Top'#2'0'#5'Width'#2'9'#9'Alignment'#7#13'taLef'
+  +'tJustify'#10'BevelInner'#7#8'bvRaised'#10'BevelOuter'#7#9'bvLowered'#12'Cli'
+  +'entHeight'#2#25#11'ClientWidth'#2'9'#5'Color'#7#8'clInfoBk'#11'FullRepaint'
+  +#8#11'ParentColor'#8#8'TabOrder'#2#2#0#6'TLabel'#9'HintLabel'#4'Left'#2#2#6
+  +'Height'#2#21#3'Top'#2#2#5'Width'#2'5'#5'Align'#7#8'alClient'#9'Alignment'#7
+  +#8'taCenter'#7'Caption'#6#9'HintLabel'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Se'
+  +'rif'#11'ParentColor'#8#0#0#0#6'TPanel'#15'TimeLegendPanel'#4'Left'#2#16#6'H'
+  +'eight'#2#25#3'Top'#2#8#5'Width'#3#129#0#10'BevelInner'#7#8'bvRaised'#10'Bev'
+  +'elOuter'#7#9'bvLowered'#7'Caption'#6#15'TimeLegendPanel'#5'Color'#7#7'clBla'
+  +'ck'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clLime'#11'Font.'
+  +'Height'#2#244#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#0#11'Pare'
+  +'ntColor'#8#8'TabOrder'#2#3#7'Visible'#8#10'OnDblClick'#7#23'TimeLegendPanel'
+  +'DblClick'#11'OnMouseDown'#7#24'TimeLegendPanelMouseDown'#0#0#10'TPopupMenu'
+  +#10'PopupMenu1'#9'AutoPopup'#8#7'OnPopup'#7#15'PopupMenu1Popup'#4'left'#3'2'
+  +#1#3'top'#3#187#0#0#9'TMenuItem'#9'PopupCopy'#7'Caption'#6#4'Copy'#7'OnClick'
+  +#7#14'PopupCopyClick'#0#0#9'TMenuItem'#10'PopupPaste'#7'Caption'#6#5'Paste'#7
+  +'OnClick'#7#15'PopupPasteClick'#0#0#9'TMenuItem'#11'PopupDelete'#7'Caption'#6
+  +#6'Delete'#7'OnClick'#7#16'PopupDeleteClick'#0#0#9'TMenuItem'#12'PopupRevers'
+  +'e'#7'Caption'#6#7'Reverse'#7'OnClick'#7#17'PopupReverseClick'#0#0#9'TMenuIt'
+  +'em'#2'N4'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#13'PopupVertices'#7'Caption'#6
+  +#8'Vertices'#7'OnClick'#7#18'PopupVerticesClick'#0#0#9'TMenuItem'#15'PopupPr'
+  +'operties'#7'Caption'#6#10'Properties'#7'OnClick'#7#20'PopupPropertiesClick'
+  +#0#0#0#6'TTimer'#6'Timer1'#7'Enabled'#8#8'Interval'#3#244#1#7'OnTimer'#7#11
+  +'Timer1Timer'#4'left'#3'T'#1#3'top'#3#187#0#0#0#10'TPopupMenu'#10'PopupMenu2'
+  +#7'OnPopup'#7#15'PopupMenu2Popup'#4'left'#3'0'#1#3'top'#3#224#0#0#9'TMenuIte'
+  +'m'#15'PopupNodeLegend'#7'Caption'#6#11'Node Legend'#7'OnClick'#7#20'PopupNo'
+  +'deLegendClick'#0#0#9'TMenuItem'#15'PopupLinkLegend'#7'Caption'#6#11'Link Le'
+  +'gend'#7'OnClick'#7#20'PopupLinkLegendClick'#0#0#9'TMenuItem'#15'PopupTimeLe'
+  +'gend'#7'Caption'#6#11'Time Legend'#7'OnClick'#7#20'PopupTimeLegendClick'#0#0
+  +#9'TMenuItem'#13'PopupBackdrop'#7'Caption'#6#8'Backdrop'#7'Enabled'#8#7'OnCl'
+  +'ick'#7#18'PopupBackdropClick'#0#0#9'TMenuItem'#2'N1'#7'Caption'#6#1'-'#0#0#9
+  +'TMenuItem'#12'PopupOptions'#7'Caption'#6#7'Options'#7'OnClick'#7#17'PopupOp'
+  +'tionsClick'#0#0#0#10'TPopupMenu'#10'PopupMenu3'#7'OnPopup'#7#15'PopupMenu3P'
+  +'opup'#4'left'#3'0'#1#3'top'#3#8#1#0#9'TMenuItem'#14'PopupAddVertex'#7'Capti'
+  +'on'#6#10'Add Vertex'#7'OnClick'#7#19'PopupAddVertexClick'#0#0#9'TMenuItem'
+  +#17'PopupDeleteVertex'#7'Caption'#6#13'Delete Vertex'#7'OnClick'#7#22'PopupD'
+  +'eleteVertexClick'#0#0#9'TMenuItem'#2'N2'#7'Caption'#6#1'-'#0#0#9'TMenuItem'
+  +#16'PopupQuitEditing'#7'Caption'#6#12'Quit Editing'#7'OnClick'#7#21'PopupQui'
+  +'tEditingClick'#0#0#0#6'TTimer'#6'Timer2'#8'Interval'#3#244#1#7'OnTimer'#7#11
+  +'Timer2Timer'#4'left'#3'T'#1#3'top'#3#224#0#0#0#0
+]);

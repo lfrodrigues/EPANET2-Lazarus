@@ -1,0 +1,231 @@
+object PreferencesForm: TPreferencesForm
+  Left = 260
+  Height = 325
+  Top = 108
+  Width = 275
+  HelpContext = 153
+  HorzScrollBar.Page = 274
+  VertScrollBar.Page = 324
+  ActiveControl = CheckBoldFonts
+  BorderStyle = bsDialog
+  Caption = 'Preferences'
+  ClientHeight = 325
+  ClientWidth = 275
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object PageControl1: TPageControl
+    Left = 7
+    Height = 266
+    Top = 8
+    Width = 260
+    TabStop = False
+    ActivePage = TabSheet1
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      HelpContext = 137
+      Caption = 'General'
+      ClientHeight = 240
+      ClientWidth = 252
+      object Label5: TLabel
+        Left = 41
+        Height = 14
+        Top = 160
+        Width = 100
+        Caption = 'Temporary Directory'
+        ParentColor = False
+      end
+      object CheckBoldFonts: TCheckBox
+        Left = 41
+        Height = 13
+        Top = 11
+        Width = 70
+        Caption = 'Bold Fonts'
+        TabOrder = 0
+      end
+      object CheckBlinking: TCheckBox
+        Left = 41
+        Height = 13
+        Top = 41
+        Width = 110
+        Caption = 'Blinking Map Hiliter'
+        TabOrder = 1
+      end
+      object CheckFlyOvers: TCheckBox
+        Left = 41
+        Height = 13
+        Top = 71
+        Width = 121
+        Caption = 'Flyover Map Labeling'
+        TabOrder = 2
+      end
+      object CheckAutoBackup: TCheckBox
+        Left = 41
+        Height = 13
+        Top = 130
+        Width = 126
+        Caption = 'Automatic Backup File'
+        TabOrder = 4
+      end
+      object EditTempDir: TEdit
+        Left = 41
+        Height = 21
+        Top = 175
+        Width = 156
+        TabOrder = 5
+      end
+      object DirSelectBtn: TButton
+        Left = 136
+        Height = 22
+        Top = 201
+        Width = 63
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Select...'
+        OnClick = DirSelectBtnClick
+        TabOrder = 6
+      end
+      object CheckConfirmDelete: TCheckBox
+        Left = 41
+        Height = 13
+        Top = 100
+        Width = 102
+        Caption = 'Confirm Deletions'
+        TabOrder = 3
+      end
+    end
+    object TabSheet2: TTabSheet
+      HelpContext = 142
+      Caption = 'Formats'
+      ClientHeight = 240
+      ClientWidth = 252
+      object Label1: TLabel
+        Left = 41
+        Height = 13
+        Top = 19
+        Width = 77
+        Caption = 'Node Parameter'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 160
+        Height = 13
+        Top = 19
+        Width = 43
+        Caption = 'Decimals'
+        ParentColor = False
+      end
+      object Label3: TLabel
+        Left = 41
+        Height = 13
+        Top = 85
+        Width = 71
+        Caption = 'Link Parameter'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        Left = 160
+        Height = 13
+        Top = 85
+        Width = 43
+        Caption = 'Decimals'
+        ParentColor = False
+      end
+      object NodeVarBox: TComboBox
+        Left = 41
+        Height = 21
+        Top = 37
+        Width = 94
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        OnChange = NodeVarBoxChange
+        Style = csDropDownList
+        TabOrder = 0
+      end
+      object NodeVarSpin: TSpinEdit
+        Left = 160
+        Height = 22
+        Top = 35
+        Width = 42
+        MaxValue = 6
+        OnChange = NodeVarSpinChange
+        TabOrder = 1
+      end
+      object LinkVarBox: TComboBox
+        Left = 41
+        Height = 21
+        Top = 104
+        Width = 94
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        OnChange = LinkVarBoxChange
+        Style = csDropDownList
+        TabOrder = 2
+      end
+      object LinkVarSpin: TSpinEdit
+        Left = 160
+        Height = 22
+        Top = 102
+        Width = 42
+        MaxValue = 6
+        OnChange = LinkVarSpinChange
+        TabOrder = 3
+      end
+      object Panel1: TPanel
+        Left = 15
+        Height = 45
+        Top = 149
+        Width = 224
+        BevelOuter = bvLowered
+        ClientHeight = 45
+        ClientWidth = 224
+        TabOrder = 4
+        object Label6: TLabel
+          Left = 1
+          Height = 43
+          Top = 1
+          Width = 222
+          Align = alClient
+          Alignment = taCenter
+          Caption = 'Label6'
+          Layout = tlCenter
+          ParentColor = False
+        end
+      end
+    end
+  end
+  object BtnOK: TButton
+    Left = 10
+    Height = 25
+    Top = 290
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    OnClick = BtnOKClick
+    TabOrder = 1
+  end
+  object BtnCancel: TButton
+    Left = 100
+    Height = 25
+    Top = 290
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = BtnCancelClick
+    TabOrder = 2
+  end
+  object BtnHelp: TButton
+    Left = 190
+    Height = 25
+    Top = 290
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 3
+  end
+end

@@ -1,0 +1,96 @@
+object ControlsForm: TControlsForm
+  Left = 160
+  Height = 290
+  Top = 164
+  Width = 436
+  HorzScrollBar.Page = 435
+  VertScrollBar.Page = 289
+  ActiveControl = Memo1
+  BorderIcons = [biSystemMenu]
+  Caption = 'Controls Editor'
+  ClientHeight = 290
+  ClientWidth = 436
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object Memo1: TMemo
+    Height = 229
+    Width = 436
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Courier New'
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object StatusBar1: TStatusBar
+    Height = 20
+    Top = 270
+    Width = 436
+    Panels = <    
+      item
+        Text = ' Click Help to review format of Controls statements'
+        Width = 10
+      end>
+    SimplePanel = False
+  end
+  object Panel1: TPanel
+    Height = 41
+    Top = 229
+    Width = 436
+    Align = alBottom
+    Alignment = taLeftJustify
+    BevelOuter = bvNone
+    ClientHeight = 41
+    ClientWidth = 436
+    TabOrder = 1
+    object Panel2: TPanel
+      Left = 139
+      Height = 41
+      Width = 297
+      Align = alRight
+      BevelOuter = bvNone
+      ClientHeight = 41
+      ClientWidth = 297
+      TabOrder = 0
+      object BtnOK: TButton
+        Left = 10
+        Height = 25
+        Top = 8
+        Width = 75
+        BorderSpacing.InnerBorder = 4
+        Caption = 'OK'
+        Default = True
+        ModalResult = 1
+        OnClick = BtnOKClick
+        TabOrder = 0
+      end
+      object BtnCancel: TButton
+        Left = 106
+        Height = 25
+        Top = 8
+        Width = 75
+        BorderSpacing.InnerBorder = 4
+        Cancel = True
+        Caption = 'Cancel'
+        ModalResult = 2
+        TabOrder = 1
+      end
+      object BtnHelp: TButton
+        Left = 202
+        Height = 25
+        Top = 8
+        Width = 75
+        BorderSpacing.InnerBorder = 4
+        Caption = '&Help'
+        OnClick = BtnHelpClick
+        TabOrder = 2
+      end
+    end
+  end
+end

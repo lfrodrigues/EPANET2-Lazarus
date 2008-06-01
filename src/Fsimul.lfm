@@ -1,0 +1,54 @@
+object SimulationForm: TSimulationForm
+  Left = 241
+  Height = 93
+  Top = 300
+  Width = 230
+  HorzScrollBar.Page = 229
+  VertScrollBar.Page = 92
+  ActiveControl = OKbtn
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Run Status'
+  ClientHeight = 93
+  ClientWidth = 230
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object StatusLabel: TLabel
+    Left = 7
+    Height = 42
+    Top = 7
+    Width = 209
+    Alignment = taCenter
+    AutoSize = False
+    Layout = tlCenter
+    ParentColor = False
+    WordWrap = True
+  end
+  object OKbtn: TButton
+    Left = 74
+    Height = 25
+    Top = 59
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = OKbtnClick
+    TabOrder = 0
+  end
+  object CancelBtn: TButton
+    Left = 150
+    Height = 25
+    Top = 59
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = CancelBtnClick
+    TabOrder = 1
+  end
+end

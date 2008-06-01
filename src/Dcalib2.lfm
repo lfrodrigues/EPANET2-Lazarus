@@ -1,0 +1,89 @@
+object CalibOptionsForm: TCalibOptionsForm
+  Left = 181
+  Height = 209
+  Top = 110
+  Width = 259
+  HelpContext = 306
+  HorzScrollBar.Page = 258
+  VertScrollBar.Page = 208
+  ActiveControl = VariablesList
+  BorderStyle = bsDialog
+  Caption = 'Calibration Report Options'
+  ClientHeight = 209
+  ClientWidth = 259
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  object BtnOK: TButton
+    Left = 178
+    Height = 25
+    Top = 16
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object BtnCancel: TButton
+    Left = 178
+    Height = 25
+    Top = 56
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object BtnHelp: TButton
+    Left = 177
+    Height = 25
+    Top = 96
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 4
+  end
+  object GBVariable: TGroupBox
+    Left = 8
+    Height = 49
+    Top = 8
+    Width = 137
+    Caption = 'Calibrate Against'
+    ClientHeight = 31
+    ClientWidth = 133
+    TabOrder = 0
+    object VariablesList: TComboBox
+      Left = 6
+      Height = 21
+      Width = 121
+      AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 13
+      OnChange = VariablesListChange
+      Style = csDropDownList
+      TabOrder = 0
+    end
+  end
+  object GBLocations: TGroupBox
+    Left = 8
+    Height = 129
+    Top = 72
+    Width = 153
+    Caption = 'Measured at Nodes'
+    ClientHeight = 111
+    ClientWidth = 149
+    TabOrder = 1
+    object LocationsList: TCheckListBox
+      Height = 111
+      Width = 149
+      Align = alClient
+      ItemHeight = 13
+      TabOrder = 0
+    end
+  end
+end

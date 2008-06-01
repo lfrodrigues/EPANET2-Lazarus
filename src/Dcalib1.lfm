@@ -1,0 +1,124 @@
+object CalibDataForm: TCalibDataForm
+  Left = 270
+  Height = 240
+  Top = 198
+  Width = 384
+  HelpContext = 178
+  HorzScrollBar.Page = 383
+  VertScrollBar.Page = 239
+  ActiveControl = StringGrid1
+  BorderStyle = bsDialog
+  Caption = 'Calibration Data'
+  ClientHeight = 240
+  ClientWidth = 384
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  object BtnBrowse: TSpeedButton
+    Left = 319
+    Height = 47
+    Top = 13
+    Width = 53
+    Caption = '&Browse'
+    Color = clBtnFace
+    Glyph.Data = {
+      4E010000424D4E01000000000000760000002800000012000000120000000100
+      040000000000D800000000000000000000001000000010000000000000000000
+      BF0000BF000000BFBF00BF000000BF00BF00BFBF0000C0C0C000808080000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777777777777
+      7777770000007777777777777777770000007777770007777700070000007777
+      770F0777770F0700000077777700087778000700000077777700000000000700
+      00007777770F0000F000070000007777770F0000F00007000000780000000000
+      00000700000070FBFB00000800007700000070BFBFBF00B070077700000070FB
+      FBFB00F070077700000070BFBFBF00B070077700000070FBFBFBFBF077777700
+      000070BFBFBFBFB077777700000070FBF0000008777777000000770007777777
+      777777000000777777777777777777000000
+    }
+    Layout = blGlyphTop
+    NumGlyphs = 0
+    OnClick = BtnBrowseClick
+  end
+  object BtnEdit: TSpeedButton
+    Left = 319
+    Height = 48
+    Top = 80
+    Width = 53
+    Caption = '&Edit'
+    Color = clBtnFace
+    Glyph.Data = {
+      66010000424D6601000000000000760000002800000014000000140000000100
+      040000000000F000000000000000000000001000000010000000000000000000
+      8000008000000080800080000000800080008080000080808000C0C0C0000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00555555555555
+      5555555500005577777777777777777500005000000000000000007500005088
+      80FFFFFF0FFFF0750000508180F4444F0F44F0750000508880FFFFFF0FFFF075
+      0000508180F4444F0F44F0750000508880FFFFFF0FFFF0750000508180F4444F
+      0F44F0750000508880FF0078088880750000508180F400007844807500005088
+      80FF7008007880750000508180F4408FF80080750000508880FFF70FFF800075
+      0000500000000008FF803007000050EEEEEEEE70880B43000000500000000000
+      00FBB43000005555555555550BFFBB43000055555555555550BFFBB400005555
+      55555555550BFFBB0000
+    }
+    Layout = blGlyphTop
+    NumGlyphs = 0
+    OnClick = BtnEditClick
+  end
+  object Bevel1: TBevel
+    Left = 7
+    Height = 8
+    Top = 188
+    Width = 365
+    Shape = bsBottomLine
+  end
+  object BtnOK: TButton
+    Left = 117
+    Height = 25
+    Top = 208
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = BtnOKClick
+    TabOrder = 1
+  end
+  object BtnCancel: TButton
+    Left = 207
+    Height = 25
+    Top = 208
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object BtnHelp: TButton
+    Left = 297
+    Height = 25
+    Top = 208
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 3
+  end
+  object StringGrid1: TStringGrid
+    Left = 7
+    Height = 177
+    Top = 11
+    Width = 299
+    ColCount = 2
+    DefaultColWidth = 100
+    FixedColor = clBtnFace
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
+    RowCount = 8
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    TabStop = True
+    OnClick = StringGrid1Click
+  end
+end

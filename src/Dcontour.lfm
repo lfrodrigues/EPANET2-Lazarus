@@ -1,0 +1,308 @@
+object ContourOptionsForm: TContourOptionsForm
+  Left = 257
+  Height = 282
+  Top = 108
+  Width = 361
+  HelpContext = 231
+  HorzScrollBar.Page = 360
+  VertScrollBar.Page = 281
+  ActiveControl = LgndDisplay
+  BorderStyle = bsDialog
+  Caption = 'Contour Plot Options'
+  ClientHeight = 282
+  ClientWidth = 361
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object BtnOK: TButton
+    Left = 98
+    Height = 25
+    Top = 248
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = BtnOKClick
+    TabOrder = 5
+  end
+  object BtnCancel: TButton
+    Left = 188
+    Height = 25
+    Top = 248
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    OnClick = BtnCancelClick
+    TabOrder = 6
+  end
+  object BtnHelp: TButton
+    Left = 278
+    Height = 25
+    Top = 248
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 7
+  end
+  object LegendGroup: TGroupBox
+    Left = 12
+    Height = 84
+    Top = 8
+    Width = 189
+    Caption = 'Legend'
+    ClientHeight = 66
+    ClientWidth = 185
+    TabOrder = 0
+    object LgndDisplay: TCheckBox
+      Left = 7
+      Height = 13
+      Top = 11
+      Width = 93
+      Caption = 'Display Legend'
+      TabOrder = 0
+    end
+    object LgndModify: TButton
+      Left = 34
+      Height = 25
+      Top = 35
+      Width = 113
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Modify Legend...'
+      OnClick = LgndModifyClick
+      TabOrder = 1
+    end
+    object ColorBox1: TColorBox
+      Left = 63
+      Height = 22
+      Top = 109
+      Width = 100
+      AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 16
+      Items.Strings = (
+        'clBlack'
+        'clMaroon'
+        'clGreen'
+        'clOlive'
+        'clNavy'
+        'clPurple'
+        'clTeal'
+        'clGray'
+        'clSilver'
+        'clRed'
+        'clLime'
+        'clYellow'
+        'clBlue'
+        'clFuchsia'
+        'clAqua'
+        'clSilver'
+        'clGray'
+        'clWhite'
+        'clCream'
+        'clNone'
+        'clDefault'
+      )
+      TabOrder = 2
+      Text = 'ColorBox1'
+    end
+  end
+  object StyleGroup: TGroupBox
+    Left = 216
+    Height = 84
+    Top = 8
+    Width = 140
+    Caption = 'Style'
+    ClientHeight = 66
+    ClientWidth = 136
+    TabOrder = 2
+    object StyleFilled: TRadioButton
+      Left = 7
+      Height = 13
+      Top = 11
+      Width = 89
+      Caption = 'Filled Contours'
+      OnClick = StyleFilledClick
+      TabOrder = 0
+    end
+    object StyleLines: TRadioButton
+      Left = 7
+      Height = 13
+      Top = 43
+      Width = 85
+      Caption = 'Line Contours'
+      OnClick = StyleLinesClick
+      TabOrder = 1
+    end
+  end
+  object NetworkGroup: TGroupBox
+    Left = 12
+    Height = 127
+    Top = 104
+    Width = 188
+    Caption = 'Network Backdrop'
+    ClientHeight = 109
+    ClientWidth = 184
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 7
+      Height = 14
+      Top = 6
+      Width = 57
+      Caption = 'Foreground'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 10
+      Height = 14
+      Top = 38
+      Width = 57
+      Caption = 'Background'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 7
+      Height = 14
+      Top = 71
+      Width = 41
+      Caption = 'Link Size'
+      ParentColor = False
+    end
+    object LinkSize: TSpinEdit
+      Left = 90
+      Height = 22
+      Top = 71
+      Width = 33
+      MaxValue = 5
+      MinValue = 1
+      TabOrder = 0
+      Value = 1
+    end
+    object ForeColorBox: TColorBox
+      Left = 86
+      Height = 22
+      Top = 6
+      Width = 86
+      AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 16
+      Items.Strings = (
+        'clBlack'
+        'clMaroon'
+        'clGreen'
+        'clOlive'
+        'clNavy'
+        'clPurple'
+        'clTeal'
+        'clGray'
+        'clSilver'
+        'clRed'
+        'clLime'
+        'clYellow'
+        'clBlue'
+        'clFuchsia'
+        'clAqua'
+        'clSilver'
+        'clGray'
+        'clWhite'
+        'clCream'
+        'clNone'
+        'clDefault'
+      )
+      TabOrder = 1
+      Text = 'ForeColorBox'
+    end
+    object BackColorBox: TColorBox
+      Left = 86
+      Height = 22
+      Top = 38
+      Width = 86
+      AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 16
+      Items.Strings = (
+        'clBlack'
+        'clMaroon'
+        'clGreen'
+        'clOlive'
+        'clNavy'
+        'clPurple'
+        'clTeal'
+        'clGray'
+        'clSilver'
+        'clRed'
+        'clLime'
+        'clYellow'
+        'clBlue'
+        'clFuchsia'
+        'clAqua'
+        'clSilver'
+        'clGray'
+        'clWhite'
+        'clCream'
+        'clNone'
+        'clDefault'
+      )
+      TabOrder = 2
+      Text = 'BackColorBox'
+    end
+  end
+  object ContourGroup: TGroupBox
+    Left = 218
+    Height = 127
+    Top = 104
+    Width = 135
+    Caption = 'Contour Lines'
+    ClientHeight = 109
+    ClientWidth = 131
+    TabOrder = 3
+    object Label4: TLabel
+      Left = 7
+      Height = 14
+      Top = 26
+      Width = 47
+      Caption = 'Thickness'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 10
+      Height = 40
+      Top = 59
+      Width = 28
+      Caption = 'Lines per Level'
+      Layout = tlCenter
+      ParentColor = False
+      WordWrap = True
+    end
+    object NumLines: TSpinEdit
+      Left = 86
+      Height = 22
+      Top = 71
+      Width = 33
+      MaxValue = 10
+      MinValue = 1
+      TabOrder = 1
+      Value = 1
+    end
+    object LineSize: TSpinEdit
+      Left = 86
+      Height = 22
+      Top = 25
+      Width = 33
+      MaxValue = 10
+      MinValue = 1
+      TabOrder = 0
+      Value = 1
+    end
+  end
+  object DefaultBox: TCheckBox
+    Left = 12
+    Height = 13
+    Top = 248
+    Width = 54
+    Caption = 'Default'
+    TabOrder = 4
+  end
+end

@@ -1,0 +1,68 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TTableOptionsForm','FORMDATA',[
+  'TPF0'#17'TTableOptionsForm'#16'TableOptionsForm'#4'Left'#3#197#1#6'Height'#3
+  +' '#1#3'Top'#3#226#0#5'Width'#3'>'#1#11'HelpContext'#3#7#1#18'HorzScrollBar.'
+  +'Page'#3'='#1#18'VertScrollBar.Page'#3#31#1#13'ActiveControl'#7#11'NetNodesB'
+  +'tn'#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#13'Table Options'#12'ClientH'
+  +'eight'#3' '#1#11'ClientWidth'#3'>'#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#11
+  +'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCr'
+  +'eate'#8'Position'#7#14'poScreenCenter'#0#12'TPageControl'#12'PageControl1'#4
+  +'Left'#2#8#6'Height'#3#234#0#3'Top'#2#8#5'Width'#3'1'#1#7'TabStop'#8#10'Acti'
+  +'vePage'#7#13'TableTypePage'#8'TabIndex'#2#0#8'TabOrder'#2#0#0#9'TTabSheet'
+  +#13'TableTypePage'#11'HelpContext'#3#8#1#7'Caption'#6#4'Type'#12'ClientHeigh'
+  +'t'#3#208#0#11'ClientWidth'#3')'#1#0#6'TBevel'#6'Bevel1'#4'Left'#2#8#6'Heigh'
+  +'t'#2#9#3'Top'#2'`'#5'Width'#3#25#1#5'Shape'#7#12'bsBottomLine'#0#0#6'TLabel'
+  +#6'Label1'#4'Left'#2#24#6'Height'#2#14#3'Top'#2#16#5'Width'#3#165#0#7'Captio'
+  +'n'#6'#Select the type of table to create:'#11'ParentColor'#8#0#0#12'TRadioB'
+  +'utton'#11'NetNodesBtn'#4'Left'#2#28#6'Height'#2#13#3'Top'#2'*'#5'Width'#2'h'
+  +#7'Caption'#6#16'Network nodes at'#7'Checked'#9#8'OnChange'#7#17'NetNodesBtn'
+  +'Change'#7'OnClick'#7#16'NetNodesBtnClick'#5'State'#7#9'cbChecked'#8'TabOrde'
+  +'r'#2#0#0#0#12'TRadioButton'#11'NetLinksBtn'#4'Left'#2#28#6'Height'#2#13#3'T'
+  +'op'#2'C'#5'Width'#2'`'#7'Caption'#6#16'Network links at'#7'OnClick'#7#16'Ne'
+  +'tNodesBtnClick'#8'TabOrder'#2#1#0#0#12'TRadioButton'#13'NodeSeriesBtn'#4'Le'
+  +'ft'#2#28#6'Height'#2#13#3'Top'#2'{'#5'Width'#2's'#7'Caption'#6#20'Time seri'
+  +'es for node'#7'OnClick'#7#16'NetNodesBtnClick'#8'TabOrder'#2#2#0#0#9'TCombo'
+  +'Box'#13'TimePeriodBox'#4'Left'#3#176#0#6'Height'#2#21#3'Top'#2'6'#5'Width'#2
+  +'d'#16'AutoCompleteText'#11#22'cbactEndOfLineComplete'#20'cbactSearchAscendi'
+  +'ng'#0#10'ItemHeight'#2#13#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#4#0#0
+  +#12'TRadioButton'#13'LinkSeriesBtn'#4'Left'#2#28#6'Height'#2#13#3'Top'#3#147
+  +#0#5'Width'#2'k'#7'Caption'#6#20'Time series for link'#7'OnClick'#7#16'NetNo'
+  +'desBtnClick'#8'TabOrder'#2#3#0#0#5'TEdit'#11'ObjectIDBox'#4'Left'#3#176#0#6
+  +'Height'#2#21#3'Top'#3#136#0#5'Width'#2'Y'#8'TabOrder'#2#5#0#0#0#9'TTabSheet'
+  +#11'ColumnsPage'#11'HelpContext'#3#9#1#7'Caption'#6#7'Columns'#12'ClientHeig'
+  +'ht'#3#208#0#11'ClientWidth'#3')'#1#0#6'TLabel'#6'Label2'#4'Left'#2#24#6'Hei'
+  +'ght'#2#14#3'Top'#2#16#5'Width'#3#211#0#7'Caption'#6'-Select which columns t'
+  +'o include in the table:'#11'ParentColor'#8#0#0#13'TCheckListBox'#14'Columns'
+  +'ListBox'#4'Left'#2'N'#6'Height'#2'{'#3'Top'#2'*'#5'Width'#2'|'#10'ItemHeigh'
+  +'t'#2#13#7'OnClick'#7#19'ColumnsListBoxClick'#12'OnClickCheck'#7#24'ColumnsL'
+  +'istBoxClickCheck'#8'TabOrder'#2#0#0#0#9'TCheckBox'#14'SortedCheckBox'#4'Lef'
+  +'t'#2'N'#6'Height'#2#13#3'Top'#3#177#0#5'Width'#2'A'#7'Caption'#6#9'Sorted b'
+  +'y'#7'OnClick'#7#19'SortedCheckBoxClick'#8'TabOrder'#2#1#0#0#0#9'TTabSheet'
+  +#11'FiltersPage'#11'HelpContext'#3#10#1#7'Caption'#6#7'Filters'#12'ClientHei'
+  +'ght'#3#208#0#11'ClientWidth'#3')'#1#0#6'TLabel'#6'Label3'#4'Left'#2#13#6'He'
+  +'ight'#2#14#3'Top'#2#16#5'Width'#3#212#0#7'Caption'#6'.Define conditions for'
+  +' selecting table entries:'#11'ParentColor'#8#0#0#9'TComboBox'#17'FilterVari'
+  +'ableBox'#4'Left'#2#13#6'Height'#2#21#3'Top'#2'*'#5'Width'#2'b'#16'AutoCompl'
+  +'eteText'#11#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#10'ItemHe'
+  +'ight'#2#13#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#0#0#0#9'TComboBox'#17
+  +'FilterRelationBox'#4'Left'#2'u'#6'Height'#2#21#3'Top'#2'*'#5'Width'#2'U'#16
+  +'AutoCompleteText'#11#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0
+  +#10'ItemHeight'#2#13#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#1#0#0#5'TEd'
+  +'it'#14'FilterValueBox'#4'Left'#3#208#0#6'Height'#2#21#3'Top'#2'*'#5'Width'#2
+  +'H'#8'TabOrder'#2#2#0#0#8'TListBox'#14'FiltersListBox'#4'Left'#2#13#6'Height'
+  +#2']'#3'Top'#2'D'#5'Width'#3#11#1#10'ItemHeight'#2#13#8'TabOrder'#2#3#0#0#7
+  +'TButton'#12'FilterAddBtn'#4'Left'#2'2'#6'Height'#2#23#3'Top'#3#169#0#5'Widt'
+  +'h'#2'M'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'Add'#7'OnClick'#7
+  +#17'FilterAddBtnClick'#8'TabOrder'#2#4#0#0#7'TButton'#12'FilterDelBtn'#4'Lef'
+  +'t'#3#167#0#6'Height'#2#23#3'Top'#3#169#0#5'Width'#2'M'#25'BorderSpacing.Inn'
+  +'erBorder'#2#4#7'Caption'#6#6'Delete'#7'OnClick'#7#17'FilterDelBtnClick'#8'T'
+  +'abOrder'#2#5#0#0#0#0#7'TButton'#9'CancelBtn'#4'Left'#2'|'#6'Height'#2#25#3
+  +'Top'#3#0#1#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#6'Cancel'#9#7'Ca'
+  +'ption'#6#6'Cancel'#11'ModalResult'#2#2#8'TabOrder'#2#2#0#0#7'TButton'#5'OKB'
+  +'tn'#4'Left'#2'"'#6'Height'#2#25#3'Top'#3#0#1#5'Width'#2'K'#25'BorderSpacing'
+  +'.InnerBorder'#2#4#7'Caption'#6#2'OK'#7'Default'#9#7'OnClick'#7#10'OKBtnClic'
+  +'k'#8'TabOrder'#2#1#0#0#7'TButton'#7'HelpBtn'#4'Left'#3#214#0#6'Height'#2#25
+  +#3'Top'#3#0#1#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#5
+  +'&Help'#7'OnClick'#7#12'HelpBtnClick'#8'TabOrder'#2#3#0#0#0
+]);

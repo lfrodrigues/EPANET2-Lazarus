@@ -1,0 +1,30 @@
+object StatusForm: TStatusForm
+  Left = 264
+  Height = 328
+  Top = 220
+  Width = 496
+  HelpContext = 177
+  HorzScrollBar.Page = 495
+  VertScrollBar.Page = 327
+  ActiveControl = FileViewer
+  Caption = 'StatusForm'
+  ClientHeight = 328
+  ClientWidth = 496
+  Font.Height = -13
+  Font.Name = 'System'
+  OnActivate = FormActivate
+  OnClose = FormClose
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object FileViewer: TListBox
+    Height = 328
+    Width = 496
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -11
+    Font.Name = 'Courier New'
+    ItemHeight = 14
+    TabOrder = 0
+  end
+end

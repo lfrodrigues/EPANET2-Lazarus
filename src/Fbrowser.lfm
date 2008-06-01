@@ -1,0 +1,343 @@
+object BrowserForm: TBrowserForm
+  Left = 346
+  Height = 234
+  Top = 124
+  Width = 118
+  HorzScrollBar.Page = 117
+  VertScrollBar.Page = 233
+  ActiveControl = PageControl1
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsToolWindow
+  Caption = 'Browser'
+  ClientHeight = 234
+  ClientWidth = 118
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ShowHint = True
+  LCLVersion = '0.9.25'
+  Visible = True
+  object PageControl1: TPageControl
+    Height = 234
+    Width = 118
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      HelpContext = 158
+      Caption = 'Data'
+      ClientHeight = 208
+      ClientWidth = 110
+      object BtnAdd: TSpeedButton
+        Left = 12
+        Height = 27
+        Hint = 'Add'
+        Top = 170
+        Width = 27
+        Color = clBtnFace
+        Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -9
+        Font.Name = 'Small Fonts'
+        Font.Style = [fsBold]
+        Glyph.Data = {
+          42010000424D4201000000000000760000002800000011000000110000000100
+          040000000000CC00000000000000000000001000000010000000000000000000
+          BF0000BF000000BFBF00BF000000BF00BF00BFBF0000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777777777777
+          777770000000777777770000000070000000777777770FBFBFB0700000007777
+          70000BFBFBF070000000777770FF0000000070000000777F70FFFFF077777000
+          00007778F0F888F0777770000000F778B0FFFFF07777700000008B78F08F88F0
+          77777000000078F8B8BFFFF0777770000000FF8BFB000000777770000000788F
+          BF77777777777000000078F8F8B777777777700000008B78B777777777777000
+          0000F778F778F7777777700000007778B7777777777770000000777777777777
+          777770000000
+        }
+        NumGlyphs = 0
+        OnClick = BtnAddClick
+      end
+      object BtnDelete: TSpeedButton
+        Left = 38
+        Height = 27
+        Hint = 'Delete'
+        Top = 170
+        Width = 30
+        Color = clBtnFace
+        Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -9
+        Font.Name = 'Small Fonts'
+        Font.Style = [fsBold]
+        Glyph.Data = {
+          F6000000424DF600000000000000760000002800000010000000100000000100
+          0400000000008000000000000000000000001000000010000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777777777777
+          7777777777777777777777777777777770F77770F7777777777777000F777777
+          0F7777000F777770F777777000F77700F7777777000F700F77777777700000F7
+          7777777777000F7777777777700000F777777777000F70F77777770000F77700
+          F77770000F7777700F77700F7777777700F77777777777777777
+        }
+        NumGlyphs = 0
+        OnClick = BtnDeleteClick
+      end
+      object BtnEdit: TSpeedButton
+        Left = 68
+        Height = 27
+        Hint = 'Edit'
+        Top = 170
+        Width = 28
+        Color = clBtnFace
+        Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -9
+        Font.Name = 'Small Fonts'
+        Font.Style = [fsBold]
+        Glyph.Data = {
+          42010000424D4201000000000000760000002800000011000000110000000100
+          040000000000CC00000000000000000000001000000010000000000000000000
+          BF0000BF000000BFBF00BF000000BF00BF00BFBF0000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777777777777
+          7777700000007777777777777777700000007444444444444777700000007488
+          8888888847777000000074777777770747777000000074700700700047777000
+          000074777777770007777000000074700700700B80777000000074777777770B
+          707770000000744444444440B8077000000074F44F44F440B707700000007444
+          444444440B80700000007777777777770B807000000077777777777770050000
+          0000777777777777705500000000777777777777770070000000777777777777
+          777770000000
+        }
+        NumGlyphs = 0
+        OnClick = BtnEditClick
+      end
+      object ObjectListBox: TComboBox
+        Left = 3
+        Height = 21
+        Top = 7
+        Width = 99
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        DropDownCount = 11
+        ItemHeight = 13
+        OnChange = ObjectListBoxChange
+        Style = csDropDownList
+        TabOrder = 0
+      end
+      object ItemListBox: TVirtualListBox
+        Left = 3
+        Height = 132
+        Top = 28
+        Width = 99
+        ItemHeight = 13
+        ItemIndex = -1
+        OnGetItem = ItemListBoxGetItem
+        ParentColor = False
+        TabOrder = 1
+        OnClick = ItemListBoxClick
+        OnDblClick = ItemListBoxDblClick
+        OnKeyDown = ItemListBoxKeyDown
+        OnKeyPress = ItemListBoxKeyPress
+        OnMouseDown = ItemListBoxMouseDown
+      end
+    end
+    object TabSheet2: TTabSheet
+      HelpContext = 304
+      Caption = 'Map'
+      ClientHeight = 208
+      ClientWidth = 110
+      object Label2: TLabel
+        Left = 4
+        Height = 14
+        Top = 7
+        Width = 31
+        Caption = 'Nodes'
+        ParentColor = False
+      end
+      object Label3: TLabel
+        Left = 4
+        Height = 14
+        Top = 54
+        Width = 24
+        Caption = 'Links'
+        ParentColor = False
+      end
+      object TimeLabel: TLabel
+        Left = 4
+        Height = 14
+        Top = 100
+        Width = 23
+        Caption = 'Time'
+        ParentColor = False
+      end
+      object VCRrewindBtn: TSpeedButton
+        Left = 8
+        Height = 21
+        Hint = 'Rewind'
+        Top = 155
+        Width = 21
+        Color = clBtnFace
+        Flat = True
+        Glyph.Data = {
+          36010000424D360100000000000076000000280000001E0000000C0000000100
+          040000000000C000000000000000000000001000000010000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777888777777
+          887777888777777887007F00087777700877F7778777778787007F0008777700
+          0877F7778777787787007F00087770000877F7778777877787007F0008770000
+          0877F7778778777787007F00087000000877F7778787777787007F0008F00000
+          0877F7778F77777787007F0008FF00000877F7778F77777787007F00087FF000
+          0877F77787FF777787007F000877FF000877F777877FF77787007F0008777FF0
+          0877F7778777FF7787007FFFF77777FFF777FFFF77777FFF7700
+        }
+        NumGlyphs = 2
+        OnClick = VCRrewindBtnClick
+      end
+      object VCRBackBtn: TSpeedButton
+        Left = 31
+        Height = 21
+        Hint = 'Back'
+        Top = 155
+        Width = 21
+        AllowAllUp = True
+        Color = clBtnFace
+        Flat = True
+        Glyph.Data = {
+          36010000424D360100000000000076000000280000001E0000000C0000000100
+          040000000000C000000000000000000000001000000010000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777777777788
+          7777777777778887770077777777700877777777777877877700777777770008
+          7777777777877787770077777770000877777777787777877700777777000008
+          77777777877777877700777770000008777777787777778777007777F0000008
+          7777777F7777778777007777FF0000087777777FF7777787770077777FF00008
+          77777777FF7777877700777777FF0008777777777FF7778777007777777FF008
+          7777777777FF7787770077777777FFF777777777777FFF777700
+        }
+        GroupIndex = 1
+        Margin = 1
+        NumGlyphs = 2
+        OnClick = VCRBackBtnClick
+      end
+      object VCRPauseBtn: TSpeedButton
+        Left = 54
+        Height = 21
+        Hint = 'Stop'
+        Top = 155
+        Width = 21
+        Color = clBtnFace
+        Flat = True
+        Glyph.Data = {
+          76010000424D7601000000000000760000002800000020000000100000000100
+          0400000000000001000000000000000000001000000010000000000000000000
+          800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          33333333333333333333EEEEEEEEEEEEEEE333FFFFFFFFFFFFF3E00000000000
+          00E337777777777777F3E0F77777777770E337F33333333337F3E0F333333333
+          70E337F33333333337F3E0F33333333370E337F333FFFFF337F3E0F330000033
+          70E337F3377777F337F3E0F33000003370E337F3377777F337F3E0F330000033
+          70E337F3377777F337F3E0F33000003370E337F3377777F337F3E0F330000033
+          70E337F33777773337F3E0F33333333370E337F33333333337F3E0F333333333
+          70E337F33333333337F3E0FFFFFFFFFFF0E337FFFFFFFFFFF7F3E00000000000
+          00E33777777777777733EEEEEEEEEEEEEEE33333333333333333
+        }
+        NumGlyphs = 2
+        OnClick = VCRPauseBtnClick
+      end
+      object VCRFwdBtn: TSpeedButton
+        Left = 77
+        Height = 21
+        Hint = 'Forward'
+        Top = 155
+        Width = 21
+        AllowAllUp = True
+        Color = clBtnFace
+        Flat = True
+        Glyph.Data = {
+          36010000424D360100000000000076000000280000001E0000000C0000000100
+          040000000000C000000000000000000000001000000010000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00777778877777
+          777777778877777777007777F00877777777777F7787777777007777F0008777
+          7777777F7778777777007777F00008777777777F7777877777007777F0000087
+          7777777F7777787777007777F00000087777777F7777778777007777F0000007
+          7777777F7777787777007777F00000777777777F7777877777007777F0000777
+          7777777F7778777777007777F00077777777777F7787777777007777F0077777
+          7777777F7877777777007777FF7777777777777FF77777777700
+        }
+        GroupIndex = 1
+        NumGlyphs = 2
+        OnClick = VCRFwdBtnClick
+      end
+      object NodeViewBox: TComboBox
+        Left = 3
+        Height = 21
+        Hint = 'Node View'
+        Top = 19
+        Width = 99
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        OnChange = NodeViewBoxChange
+        ParentShowHint = False
+        ShowHint = True
+        Style = csDropDownList
+        TabOrder = 0
+      end
+      object LinkViewBox: TComboBox
+        Left = 3
+        Height = 21
+        Hint = 'Link View'
+        Top = 66
+        Width = 99
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        OnChange = LinkViewBoxChange
+        ParentShowHint = False
+        ShowHint = True
+        Style = csDropDownList
+        TabOrder = 1
+      end
+      object TimeListBox: TComboBox
+        Left = 3
+        Height = 21
+        Hint = 'Time'
+        Top = 113
+        Width = 99
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        OnClick = TimeListBoxClick
+        ParentShowHint = False
+        ShowHint = True
+        Style = csDropDownList
+        TabOrder = 2
+      end
+      object TimeScrollBar: TScrollBar
+        Left = 4
+        Height = 16
+        Top = 136
+        Width = 97
+        TabOrder = 3
+        OnChange = TimeScrollBarChange
+        OnScroll = TimeScrollBarScroll
+      end
+      object VCRSpeedBar: TTrackBar
+        Left = 3
+        Height = 38
+        Hint = 'Animation Speed'
+        Top = 179
+        Width = 99
+        OnChange = VCRSpeedBarChange
+        Position = 5
+        ScalePos = trTop
+        TabOrder = 4
+      end
+    end
+  end
+  object VCRTimer: TTimer
+    Enabled = False
+    OnTimer = VCRTimerTimer
+    left = 90
+    top = 29
+  end
+end

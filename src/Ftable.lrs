@@ -1,0 +1,38 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TTableForm','FORMDATA',[
+  'TPF0'#10'TTableForm'#9'TableForm'#4'Left'#3#10#1#6'Height'#3#8#1#3'Top'#3#252
+  +#0#5'Width'#3#208#1#18'HorzScrollBar.Page'#3#207#1#18'VertScrollBar.Page'#3#7
+  +#1#13'ActiveControl'#7#8'ListBox1'#7'Caption'#6#9'TableForm'#12'ClientHeight'
+  +#3#8#1#11'ClientWidth'#3#208#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.C'
+  +'olor'#7#7'clBlack'#11'Font.Height'#2#245#9'Font.Name'#6#5'Arial'#10'OnActiv'
+  +'ate'#7#12'FormActivate'#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCrea'
+  +'te'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#6'0.9.25'#7'Visible'#9
+  +#0#9'TSplitter'#9'Splitter1'#6'Cursor'#7#8'crVSplit'#6'Height'#2#6#3'Top'#3
+  +#223#0#5'Width'#3#208#1#5'Align'#7#8'alBottom'#12'ResizeAnchor'#7#8'akBottom'
+  +#0#0#8'TListBox'#8'ListBox1'#6'Height'#2'#'#3'Top'#3#229#0#5'Width'#3#208#1#5
+  +'Align'#7#8'alBottom'#10'ItemHeight'#2#14#6'OnExit'#7#12'ListBox1Exit'#8'Tab'
+  +'Order'#2#0#0#0#9'TDrawGrid'#5'Grid1'#6'Height'#3#223#0#5'Width'#3#208#1#5'A'
+  +'lign'#7#8'alClient'#5'Color'#7#9'clBtnFace'#8'ColCount'#2#5#15'DefaultColWi'
+  +'dth'#2'H'#10'FixedColor'#7#9'clBtnFace'#7'Options'#11#15'goFixedVertLine'#15
+  +'goFixedHorzLine'#10'goVertLine'#10'goHorzLine'#13'goRangeSelect'#11'goColSi'
+  +'zing'#0#8'RowCount'#2#5#8'TabOrder'#2#1#10'OnDrawCell'#7#13'Grid1DrawCell'
+  +#11'OnMouseDown'#7#14'Grid1MouseDown'#9'OnMouseUp'#7#12'Grid1MouseUp'#0#0#0
+  +#10'TTableForm'#9'TableForm'#4'Left'#3#10#1#6'Height'#3#8#1#3'Top'#3#252#0#5
+  +'Width'#3#208#1#18'HorzScrollBar.Page'#3#207#1#18'VertScrollBar.Page'#3#7#1
+  +#13'ActiveControl'#7#8'ListBox1'#7'Caption'#6#9'TableForm'#12'ClientHeight'#3
+  +#8#1#11'ClientWidth'#3#208#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Col'
+  +'or'#7#7'clBlack'#11'Font.Height'#2#245#9'Font.Name'#6#5'Arial'#10'OnActivat'
+  +'e'#7#12'FormActivate'#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'
+  +#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#6'0.9.25'#7'Visible'#9#0#9
+  +'TSplitter'#9'Splitter1'#6'Cursor'#7#8'crVSplit'#6'Height'#2#6#3'Top'#3#223#0
+  +#5'Width'#3#208#1#5'Align'#7#8'alBottom'#12'ResizeAnchor'#7#8'akBottom'#0#0#8
+  +'TListBox'#8'ListBox1'#6'Height'#2'#'#3'Top'#3#229#0#5'Width'#3#208#1#5'Alig'
+  +'n'#7#8'alBottom'#10'ItemHeight'#2#14#6'OnExit'#7#12'ListBox1Exit'#8'TabOrde'
+  +'r'#2#0#0#0#9'TDrawGrid'#5'Grid1'#6'Height'#3#223#0#5'Width'#3#208#1#5'Align'
+  +#7#8'alClient'#5'Color'#7#9'clBtnFace'#8'ColCount'#2#5#15'DefaultColWidth'#2
+  +'H'#10'FixedColor'#7#9'clBtnFace'#7'Options'#11#15'goFixedVertLine'#15'goFix'
+  +'edHorzLine'#10'goVertLine'#10'goHorzLine'#13'goRangeSelect'#11'goColSizing'
+  +#0#8'RowCount'#2#5#8'TabOrder'#2#1#10'OnDrawCell'#7#13'Grid1DrawCell'#11'OnM'
+  +'ouseDown'#7#14'Grid1MouseDown'#9'OnMouseUp'#7#12'Grid1MouseUp'#0#0#0
+]);

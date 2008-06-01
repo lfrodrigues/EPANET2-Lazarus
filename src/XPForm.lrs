@@ -1,0 +1,13 @@
+LazarusResources.Add('TProgressForm','FORMDATA',[
+  'TPF0'#13'TProgressForm'#12'ProgressForm'#4'Left'#3#216#0#6'Height'#2'T'#3'To'
+  +'p'#2'l'#5'Width'#3#145#0#18'HorzScrollBar.Page'#3#144#0#18'VertScrollBar.Pa'
+  +'ge'#2'S'#13'ActiveControl'#7#7'Button1'#11'BorderIcons'#11#0#11'BorderStyle'
+  +#7#8'bsDialog'#7'Caption'#6#8'Printing'#12'ClientHeight'#2'T'#11'ClientWidth'
+  +#3#145#0#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#9'FormStyle'
+  +#7#11'fsStayOnTop'#8'Position'#7#14'poScreenCenter'#0#6'TLabel'#6'Label1'#6
+  +'Height'#2#13#3'Top'#2#16#5'Width'#3#136#0#9'Alignment'#7#8'taCenter'#8'Auto'
+  +'Size'#8#11'ParentColor'#8#0#0#7'TButton'#7'Button1'#4'Left'#2' '#6'Height'#2
+  +#25#3'Top'#2'0'#5'Width'#2'I'#25'BorderSpacing.InnerBorder'#2#4#6'Cancel'#9#7
+  +'Caption'#6#6'Cancel'#7'Default'#9#11'ModalResult'#2#2#7'OnClick'#7#12'Butto'
+  +'n1Click'#8'TabOrder'#2#0#0#0#0
+]);

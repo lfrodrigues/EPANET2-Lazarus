@@ -1,0 +1,54 @@
+object TableForm: TTableForm
+  Left = 266
+  Height = 264
+  Top = 252
+  Width = 464
+  HorzScrollBar.Page = 463
+  VertScrollBar.Page = 263
+  ActiveControl = ListBox1
+  Caption = 'TableForm'
+  ClientHeight = 264
+  ClientWidth = 464
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'Arial'
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object Splitter1: TSplitter
+    Cursor = crVSplit
+    Height = 6
+    Top = 223
+    Width = 464
+    Align = alBottom
+    ResizeAnchor = akBottom
+  end
+  object ListBox1: TListBox
+    Height = 35
+    Top = 229
+    Width = 464
+    Align = alBottom
+    ItemHeight = 14
+    OnExit = ListBox1Exit
+    TabOrder = 0
+  end
+  object Grid1: TDrawGrid
+    Height = 223
+    Width = 464
+    Align = alClient
+    Color = clBtnFace
+    ColCount = 5
+    DefaultColWidth = 72
+    FixedColor = clBtnFace
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing]
+    RowCount = 5
+    TabOrder = 1
+    OnDrawCell = Grid1DrawCell
+    OnMouseDown = Grid1MouseDown
+    OnMouseUp = Grid1MouseUp
+  end
+end

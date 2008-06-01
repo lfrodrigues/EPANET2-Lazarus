@@ -1,0 +1,40 @@
+object ContourForm: TContourForm
+  Left = 232
+  Height = 281
+  Top = 243
+  Width = 559
+  HorzScrollBar.Page = 558
+  VertScrollBar.Page = 280
+  Caption = 'Contour Plot'
+  ClientHeight = 281
+  ClientWidth = 559
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  OnPaint = FormPaint
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object LegendPanel: TPanel
+    Left = 450
+    Height = 180
+    Width = 100
+    BevelOuter = bvNone
+    ClientHeight = 180
+    ClientWidth = 100
+    TabOrder = 0
+    Visible = False
+    object LegendBox: TPaintBox
+      Height = 180
+      Width = 100
+      Align = alClient
+      OnDblClick = LegendBoxDblClick
+      OnMouseDown = LegendBoxMouseDown
+      OnPaint = LegendBoxPaint
+    end
+  end
+end

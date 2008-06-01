@@ -1,0 +1,137 @@
+object EnergyForm: TEnergyForm
+  Left = 218
+  Height = 330
+  Top = 219
+  Width = 587
+  HelpContext = 268
+  HorzScrollBar.Page = 586
+  VertScrollBar.Page = 329
+  ActiveControl = Grid1
+  Caption = 'Energy Report'
+  ClientHeight = 330
+  ClientWidth = 587
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -10
+  Font.Name = 'MS Sans Serif'
+  Icon.Data = {
+    9C0100002F2A2058504D202A2F0A7374617469632063686172202A6772617068
+    69635B5D203D207B0A22313620313620332031222C0A222E2063204E6F6E6522
+    2C0A222C20632023303030303030222C0A222D20632023464646464646222C0A
+    222E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E222C0A222E2E2E2E2E2E2E2E2E2E2E
+    2E2E2E2E2E222C0A222E2E2C2C2C2C2C2C2C2C2C2C2C2C2C2E222C0A222E2E2C
+    2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2D2C2C2C2C2C2C2C2C2C2D2C
+    2E222C0A222E2E2C2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2D2C2C2C
+    2C2C2C2C2D2D2D2C2E222C0A222E2E2C2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A
+    222E2E2C2D2C2C2C2C2C2C2C2C2C2D2C2E222C0A222E2E2C2D2D2D2D2D2D2D2D
+    2D2D2D2C2E222C0A222E2E2C2D2C2C2C2C2C2C2C2D2D2D2C2E222C0A222E2E2C
+    2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2D2C2C2C2C2C2C2C2C2C2D2C
+    2E222C0A222E2E2C2D2D2D2D2D2D2D2D2D2D2D2C2E222C0A222E2E2C2C2C2C2C
+    2C2C2C2C2C2C2C2C2E222C0A222E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E227D0A
+  }
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object PageControl1: TPageControl
+    Height = 330
+    Width = 587
+    TabStop = False
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Table'
+      ClientHeight = 304
+      ClientWidth = 579
+      object Grid1: TDrawGrid
+        Height = 304
+        Width = 579
+        Align = alClient
+        Color = clBtnFace
+        ColCount = 5
+        DefaultColWidth = 72
+        DefaultRowHeight = 28
+        FixedColor = clBtnFace
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing]
+        RowCount = 5
+        TabOrder = 0
+        OnDrawCell = Grid1DrawCell
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Chart'
+      ClientHeight = 484
+      ClientWidth = 752
+      object TAChart1: TChart
+        Left = 105
+        Height = 349
+        Width = 431
+        Legend.Alignment = laRight
+        Legend.Font.Height = -11
+        Legend.Font.Name = 'MS Sans Serif'
+        Title.Visible = True
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Font.Height = -11
+        Title.Font.Name = 'MS Sans Serif'
+        Title.Font.Style = [fsBold]
+        Title.Alignment = taCenter
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clBlue
+        Foot.Font.Height = -11
+        Foot.Font.Name = 'MS Sans Serif'
+        Foot.Alignment = taCenter
+        LeftAxis.Visible = True
+        LeftAxis.Title.Angle = 90
+        LeftAxis.Title.Font.Height = -11
+        LeftAxis.Title.Font.Name = 'MS Sans Serif'
+        LeftAxis.Grid.Color = clGray
+        LeftAxis.Grid.Style = psDot
+        LeftAxis.Grid.Visible = True
+        BottomAxis.Visible = True
+        BottomAxis.Title.Font.Height = -11
+        BottomAxis.Title.Font.Name = 'MS Sans Serif'
+        BottomAxis.Grid.Color = clGray
+        BottomAxis.Grid.Style = psDot
+        BottomAxis.Grid.Visible = True
+        Frame.Visible = True
+        BackColor = clWhite
+        Align = alClient
+        Color = clBtnFace
+        ParentColor = False
+      end
+      object RadioGroup1: TRadioGroup
+        Height = 349
+        Width = 105
+        Align = alLeft
+        AutoFill = True
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 349
+        ClientWidth = 105
+        Items.Strings = (
+          'Utilization'
+          'Efficiency'
+          'Kw-hr/Mgal'
+          'Average Kw'
+          'Peak Kw'
+          'Cost/day'
+        )
+        OnClick = RadioGroup1Click
+        TabOrder = 0
+      end
+    end
+  end
+end

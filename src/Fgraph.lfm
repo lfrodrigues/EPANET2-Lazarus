@@ -1,0 +1,82 @@
+object GraphForm: TGraphForm
+  Left = 269
+  Height = 316
+  Top = 226
+  Width = 486
+  HorzScrollBar.Page = 485
+  VertScrollBar.Page = 315
+  Caption = 'GraphForm'
+  ClientHeight = 316
+  ClientWidth = 486
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -10
+  Font.Name = 'MS Sans Serif'
+  Icon.Data = {
+    BD0100002F2A2058504D202A2F0A7374617469632063686172202A6772617068
+    69635B5D203D207B0A22313620313620352031222C0A222E2063202346464646
+    4646222C0A222C20632023383038303830222C0A222D20632023303030303030
+    222C0A222A20632023464630303030222C0A226120632023303030303830222C
+    0A222E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E222C0A222C2C2D2C2C2C2C2C2C2C
+    2C2C2C2C2C2C222C0A222E2E2D2E2E2E2E2E2E2E2E2E2E2A2A2A222C0A222E2C
+    2D2E2E612E2E2E2E2E2E2A2E2E2E222C0A222E2E2D2E2E612E2E2E2E2E2A2E2E
+    2E2E222C0A222C2C2D2C612C612C2C2C2A2C2C612C2C222C0A222E2E2D2E612E
+    612E2E2A2E2E612E612E222C0A222E2C2D612E2E2E612E2A2E2E612E2E61222C
+    0A222E2E2D2E2E2A2E2E2A2E2E2E612E2E2E222C0A222C2C2D2C2A2C2A2C2A2C
+    2C612C2C2C2C222C0A222E2E2D2E2A2E2A2A2E612E612E2E2E2E222C0A222E2C
+    2D2A2E2E2E2E2E2E612E2E2E2E2E222C0A222E2E2D2E2E2E2E2E2E2E2E2E2E2E
+    2E2E222C0A222C2C2D2D2D2D2D2D2D2D2D2D2D2D2D2D222C0A222E2E2C2E2C2E
+    2C2E2C2E2C2E2C2E2C2E222C0A222E2E2C2E2E2E2C2E2E2E2C2E2E2E2C2E227D
+    0A
+  }
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '0.9.25'
+  Visible = True
+  object TAChart1: TChart
+    Height = 316
+    Width = 486
+    Legend.Alignment = laRight
+    Legend.Font.Height = -11
+    Legend.Font.Name = 'MS Sans Serif'
+    Title.Visible = True
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Font.Height = -11
+    Title.Font.Name = 'MS Sans Serif'
+    Title.Font.Style = [fsBold]
+    Title.Alignment = taCenter
+    Title.Text.Strings = (
+      'TAChart Title'
+    )
+    Foot.Visible = True
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clRed
+    Foot.Font.Height = -11
+    Foot.Font.Name = 'MS Sans Serif'
+    Foot.Alignment = taRightJustify
+    LeftAxis.Visible = True
+    LeftAxis.Title.Caption = 'Y Axis'
+    LeftAxis.Title.Angle = 90
+    LeftAxis.Title.Font.Height = -11
+    LeftAxis.Title.Font.Name = 'MS Sans Serif'
+    LeftAxis.Grid.Color = clGray
+    LeftAxis.Grid.Style = psDot
+    LeftAxis.Grid.Visible = True
+    BottomAxis.Visible = True
+    BottomAxis.Title.Caption = 'X Axis'
+    BottomAxis.Title.Font.Height = -11
+    BottomAxis.Title.Font.Name = 'MS Sans Serif'
+    BottomAxis.Grid.Color = clGray
+    BottomAxis.Grid.Style = psDot
+    BottomAxis.Grid.Visible = True
+    Frame.Visible = True
+    BackColor = clWhite
+    Align = alClient
+    Color = clBtnFace
+    ParentColor = False
+  end
+end

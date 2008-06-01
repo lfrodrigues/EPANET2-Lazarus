@@ -1,0 +1,25 @@
+object OVMapForm: TOVMapForm
+  Left = 199
+  Height = 221
+  Top = 104
+  Width = 265
+  HelpContext = 170
+  HorzScrollBar.Page = 264
+  VertScrollBar.Page = 220
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Overview Map'
+  Color = clWhite
+  Font.Height = -13
+  Font.Name = 'System'
+  FormStyle = fsStayOnTop
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  OnResize = FormResize
+  Position = poScreenCenter
+end

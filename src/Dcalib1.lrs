@@ -1,0 +1,53 @@
+LazarusResources.Add('TCalibDataForm','FORMDATA',[
+  'TPF0'#14'TCalibDataForm'#13'CalibDataForm'#4'Left'#3#14#1#6'Height'#3#240#0#3
+  +'Top'#3#198#0#5'Width'#3#128#1#11'HelpContext'#3#178#0#18'HorzScrollBar.Page'
+  +#3''#1#18'VertScrollBar.Page'#3#239#0#13'ActiveControl'#7#11'StringGrid1'#11
+  +'BorderStyle'#7#8'bsDialog'#7'Caption'#6#16'Calibration Data'#12'ClientHeigh'
+  +'t'#3#240#0#11'ClientWidth'#3#128#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#11'F'
+  +'ont.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCre'
+  +'ate'#6'OnShow'#7#8'FormShow'#8'Position'#7#14'poScreenCenter'#0#12'TSpeedBu'
+  +'tton'#9'BtnBrowse'#4'Left'#3'?'#1#6'Height'#2'/'#3'Top'#2#13#5'Width'#2'5'#7
+  +'Caption'#6#7'&Browse'#5'Color'#7#9'clBtnFace'#10'Glyph.Data'#10'R'#1#0#0'N'
+  +#1#0#0'BMN'#1#0#0#0#0#0#0'v'#0#0#0'('#0#0#0#18#0#0#0#18#0#0#0#1#0#4#0#0#0#0#0
+  +#216#0#0#0#0#0#0#0#0#0#0#0#16#0#0#0#16#0#0#0#0#0#0#0#0#0#191#0#0#191#0#0#0
+  +#191#191#0#191#0#0#0#191#0#191#0#191#191#0#0#192#192#192#0#128#128#128#0#0#0
+  +#255#0#0#255#0#0#0#255#255#0#255#0#0#0#255#0#255#0#255#255#0#0#255#255#255#0
+  +'wwwwwwwww'#0#0#0'wwwwwwwww'#0#0#0'www'#0#7'ww'#0#7#0#0#0'www'#15#7'ww'#15#7
+  +#0#0#0'www'#0#8'wx'#0#7#0#0#0'www'#0#0#0#0#0#7#0#0#0'www'#15#0#0#240#0#7#0#0
+  +#0'www'#15#0#0#240#0#7#0#0#0'x'#0#0#0#0#0#0#0#7#0#0#0'p'#251#251#0#0#8#0#0'w'
+  +#0#0#0'p'#191#191#191#0#176'p'#7'w'#0#0#0'p'#251#251#251#0#240'p'#7'w'#0#0#0
+  +'p'#191#191#191#0#176'p'#7'w'#0#0#0'p'#251#251#251#251#240'www'#0#0#0'p'#191
+  +#191#191#191#176'www'#0#0#0'p'#251#240#0#0#8'www'#0#0#0'w'#0#7'wwwwww'#0#0#0
+  +'wwwwwwwww'#0#0#0#6'Layout'#7#10'blGlyphTop'#9'NumGlyphs'#2#0#7'OnClick'#7#14
+  +'BtnBrowseClick'#0#0#12'TSpeedButton'#7'BtnEdit'#4'Left'#3'?'#1#6'Height'#2
+  +'0'#3'Top'#2'P'#5'Width'#2'5'#7'Caption'#6#5'&Edit'#5'Color'#7#9'clBtnFace'
+  +#10'Glyph.Data'#10'j'#1#0#0'f'#1#0#0'BMf'#1#0#0#0#0#0#0'v'#0#0#0'('#0#0#0#20
+  +#0#0#0#20#0#0#0#1#0#4#0#0#0#0#0#240#0#0#0#0#0#0#0#0#0#0#0#16#0#0#0#16#0#0#0#0
+  +#0#0#0#0#0#128#0#0#128#0#0#0#128#128#0#128#0#0#0#128#0#128#0#128#128#0#0#128
+  +#128#128#0#192#192#192#0#0#0#255#0#0#255#0#0#0#255#255#0#255#0#0#0#255#0#255
+  +#0#255#255#0#0#255#255#255#0'UUUUUUUUUU'#0#0'Uwwwwwwwwu'#0#0'P'#0#0#0#0#0#0#0
+  +#0'u'#0#0'P'#136#128#255#255#255#15#255#240'u'#0#0'P'#129#128#244'DO'#15'D'
+  +#240'u'#0#0'P'#136#128#255#255#255#15#255#240'u'#0#0'P'#129#128#244'DO'#15'D'
+  +#240'u'#0#0'P'#136#128#255#255#255#15#255#240'u'#0#0'P'#129#128#244'DO'#15'D'
+  +#240'u'#0#0'P'#136#128#255#0'x'#8#136#128'u'#0#0'P'#129#128#244#0#0'xD'#128
+  +'u'#0#0'P'#136#128#255'p'#8#0'x'#128'u'#0#0'P'#129#128#244'@'#143#248#0#128
+  +'u'#0#0'P'#136#128#255#247#15#255#128#0'u'#0#0'P'#0#0#0#0#8#255#128'0'#7#0#0
+  +'P'#238#238#238#238'p'#136#11'C'#0#0#0'P'#0#0#0#0#0#0#251#180'0'#0#0'UUUUUU'
+  +#11#255#187'C'#0#0'UUUUUUP'#191#251#180#0#0'UUUUUUU'#11#255#187#0#0#6'Layout'
+  +#7#10'blGlyphTop'#9'NumGlyphs'#2#0#7'OnClick'#7#12'BtnEditClick'#0#0#6'TBeve'
+  +'l'#6'Bevel1'#4'Left'#2#7#6'Height'#2#8#3'Top'#3#188#0#5'Width'#3'm'#1#5'Sha'
+  +'pe'#7#12'bsBottomLine'#0#0#7'TButton'#5'BtnOK'#4'Left'#2'u'#6'Height'#2#25#3
+  +'Top'#3#208#0#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#2
+  +'OK'#7'Default'#9#11'ModalResult'#2#1#7'OnClick'#7#10'BtnOKClick'#8'TabOrder'
+  +#2#1#0#0#7'TButton'#9'BtnCancel'#4'Left'#3#207#0#6'Height'#2#25#3'Top'#3#208
+  +#0#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#6'Cancel'#9#7'Caption'#6#6
+  +'Cancel'#11'ModalResult'#2#2#8'TabOrder'#2#2#0#0#7'TButton'#7'BtnHelp'#4'Lef'
+  +'t'#3')'#1#6'Height'#2#25#3'Top'#3#208#0#5'Width'#2'K'#25'BorderSpacing.Inne'
+  +'rBorder'#2#4#7'Caption'#6#5'&Help'#7'OnClick'#7#12'BtnHelpClick'#8'TabOrder'
+  +#2#3#0#0#11'TStringGrid'#11'StringGrid1'#4'Left'#2#7#6'Height'#3#177#0#3'Top'
+  +#2#11#5'Width'#3'+'#1#8'ColCount'#2#2#15'DefaultColWidth'#2'd'#10'FixedColor'
+  +#7#9'clBtnFace'#7'Options'#11#15'goFixedVertLine'#15'goFixedHorzLine'#10'goV'
+  +'ertLine'#10'goHorzLine'#13'goRangeSelect'#9'goEditing'#0#8'RowCount'#2#8#10
+  +'ScrollBars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#7'TabStop'#9#7'OnClick'#7#16'S'
+  +'tringGrid1Click'#0#0#0
+]);

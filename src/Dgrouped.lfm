@@ -1,0 +1,169 @@
+object GroupEditForm: TGroupEditForm
+  Left = 190
+  Height = 192
+  Top = 226
+  Width = 448
+  HelpContext = 282
+  HorzScrollBar.Page = 447
+  VertScrollBar.Page = 191
+  ActiveControl = EditObjects
+  BorderStyle = bsDialog
+  Caption = 'Group Edit'
+  ClientHeight = 192
+  ClientWidth = 448
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  object Bevel1: TBevel
+    Left = 8
+    Height = 137
+    Top = 8
+    Width = 433
+    Shape = bsFrame
+  end
+  object EditLabel: TLabel
+    Left = 258
+    Height = 14
+    Top = 109
+    Width = 21
+    Alignment = taRightJustify
+    Caption = 'with'
+    ParentColor = False
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 14
+    Top = 24
+    Width = 30
+    Caption = 'For all'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 232
+    Height = 14
+    Top = 24
+    Width = 114
+    Caption = 'within the outlined area'
+    ParentColor = False
+  end
+  object BtnOK: TButton
+    Left = 185
+    Height = 25
+    Top = 160
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    OnClick = BtnOKClick
+    TabOrder = 8
+  end
+  object BtnCancel: TButton
+    Left = 275
+    Height = 25
+    Top = 160
+    Width = 76
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 9
+  end
+  object BtnHelp: TButton
+    Left = 365
+    Height = 25
+    Top = 160
+    Width = 76
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = BtnHelpClick
+    TabOrder = 10
+  end
+  object FilterCheck: TCheckBox
+    Left = 24
+    Height = 13
+    Top = 64
+    Width = 39
+    Caption = 'with'
+    OnClick = FilterCheckClick
+    TabOrder = 1
+  end
+  object EditObjects: TComboBox
+    Left = 104
+    Height = 21
+    Top = 24
+    Width = 113
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemHeight = 13
+    OnClick = EditObjectsClick
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object FilterProperty: TComboBox
+    Left = 104
+    Height = 21
+    Top = 64
+    Width = 113
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    Enabled = False
+    ItemHeight = 13
+    OnChange = FilterPropertyChange
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object EditAction: TComboBox
+    Left = 24
+    Height = 21
+    Top = 104
+    Width = 73
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemHeight = 13
+    OnChange = EditActionChange
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object EditProperty: TComboBox
+    Left = 104
+    Height = 21
+    Top = 104
+    Width = 113
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemHeight = 13
+    OnChange = EditPropertyChange
+    Style = csDropDownList
+    TabOrder = 6
+  end
+  object FilterValueTxt: TNumEdit
+    Left = 328
+    Height = 21
+    Top = 64
+    Width = 97
+    Enabled = False
+    OnEnter = FilterValueTxtEnter
+    TabOrder = 4
+    BorderStyle = bsSingle
+    ParentColor = False
+  end
+  object EditValueTxt: TNumEdit
+    Left = 328
+    Height = 21
+    Top = 104
+    Width = 97
+    OnEnter = EditValueTxtEnter
+    TabOrder = 7
+    BorderStyle = bsSingle
+    ParentColor = False
+  end
+  object FilterRelationList: TComboBox
+    Left = 232
+    Height = 21
+    Top = 64
+    Width = 81
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    Enabled = False
+    ItemHeight = 13
+    Style = csDropDownList
+    TabOrder = 3
+  end
+end

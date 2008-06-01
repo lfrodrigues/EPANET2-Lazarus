@@ -1,0 +1,77 @@
+object DemandsForm: TDemandsForm
+  Left = 211
+  Height = 240
+  Top = 95
+  Width = 320
+  HelpContext = 216
+  HorzScrollBar.Page = 319
+  VertScrollBar.Page = 239
+  ActiveControl = StringGrid1
+  BorderStyle = bsDialog
+  Caption = 'DemandsForm'
+  ClientHeight = 240
+  ClientWidth = 320
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  object Button1: TButton
+    Left = 29
+    Height = 25
+    Top = 193
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 119
+    Height = 25
+    Top = 193
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 209
+    Height = 25
+    Top = 193
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Panel1: TPanel
+    Height = 177
+    Width = 320
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 177
+    ClientWidth = 320
+    TabOrder = 0
+    object StringGrid1: TStringGrid
+      Height = 177
+      Width = 320
+      Align = alClient
+      BorderStyle = bsNone
+      ColCount = 4
+      DefaultColWidth = 24
+      FixedColor = clBtnFace
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs]
+      RowCount = 11
+      ScrollBars = ssAutoBoth
+      TabOrder = 0
+      TabStop = True
+      OnKeyPress = StringGrid1KeyPress
+      OnSetEditText = StringGrid1SetEditText
+    end
+  end
+end

@@ -1,0 +1,134 @@
+object DataExportForm: TDataExportForm
+  Left = 239
+  Height = 233
+  Top = 161
+  Width = 350
+  HelpContext = 279
+  HorzScrollBar.Page = 349
+  VertScrollBar.Page = 232
+  ActiveControl = DemandsCheckBox
+  BorderStyle = bsDialog
+  Caption = 'Export Scenario'
+  ClientHeight = 233
+  ClientWidth = 350
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object GroupBox1: TGroupBox
+    Left = 12
+    Height = 97
+    Top = 7
+    Width = 332
+    Caption = 'Data to Export'
+    ClientHeight = 79
+    ClientWidth = 328
+    TabOrder = 0
+    object DemandsCheckBox: TCheckBox
+      Left = 13
+      Height = 13
+      Top = 9
+      Width = 96
+      Caption = 'Nodal Demands'
+      TabOrder = 0
+    end
+    object RoughnessCheckBox: TCheckBox
+      Left = 13
+      Height = 13
+      Top = 57
+      Width = 98
+      Caption = 'Pipe Roughness'
+      TabOrder = 2
+    end
+    object QualityCheckBox: TCheckBox
+      Left = 164
+      Height = 13
+      Top = 9
+      Width = 79
+      Caption = 'Initial Quality'
+      TabOrder = 3
+    end
+    object ReactionsCheckBox: TCheckBox
+      Left = 164
+      Height = 13
+      Top = 33
+      Width = 121
+      Caption = 'Reaction Coefficients'
+      TabOrder = 4
+    end
+    object ControlsCheckBox: TCheckBox
+      Left = 164
+      Height = 13
+      Top = 57
+      Width = 58
+      Caption = 'Controls'
+      TabOrder = 5
+    end
+    object DiametersCheckBox: TCheckBox
+      Left = 13
+      Height = 13
+      Top = 33
+      Width = 91
+      Caption = 'Pipe Diameters'
+      TabOrder = 1
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 12
+    Height = 78
+    Top = 112
+    Width = 332
+    Caption = 'Notes'
+    ClientHeight = 60
+    ClientWidth = 328
+    TabOrder = 1
+    object Memo1: TMemo
+      Left = 10
+      Height = 46
+      Top = 4
+      Width = 308
+      TabOrder = 0
+      WordWrap = False
+    end
+  end
+  object Button1: TButton
+    Left = 91
+    Height = 25
+    Top = 200
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 181
+    Height = 25
+    Top = 200
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 271
+    Height = 25
+    Top = 200
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = '&Help'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Save file as'
+    Options = [ofOverwritePrompt, ofHideReadOnly]
+    left = 40
+    top = 160
+  end
+end
